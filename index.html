@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f5f5">
+  <title>...</title>
+  <link rel="stylesheet" id="styleRoot" href="index_data/styles/root.css">
+  <link rel="stylesheet" id="styleBase" href="index_data/styles/style.css">
+</head>
+<body>
+  <div id="header">
+    <div id="titleHeader">...</div>
+    <div class="open-menu-button" onclick="document.getElementById('menu').style.right='-0%';" id="openMenu"></div>
+  </div>
+  <div id="menu" style="right: -100%;">
+    <span id="closeMenu" onclick="document.getElementById('menu').style.right='-100%';" class="close-windows"></span>
+    <h1 id="menuTitle">...</h1>
+    <div id="menuContent">
+      <div class="categore" id="settingsLang">...</div>
+      <div class="setting-content" id="languageSelect">
+        <label for="langSelection" id="sLsLang">...</label>
+        <select id="langSelection" onchange="checkSettingsChanges();">
+          <option value="en">English</option>
+          <option value="ru">Русский</option>
+          <option value="he">עברית</option>
+        </select>
+      </div>
+      <hr>
+      <div class="setting-content" id="adminacces">
+        <label for="administratorTools" id="adminToolsLang" onclick="customeCheckbox0001();">...</label>
+        <input type="checkbox" id="administratorTools">
+        <div class="sub-checkbox" onclick="customeCheckbox0001();document.getElementById('administratorTools').click();" id="checkboxId0001">
+          <div id="ch0001false" class="chox false">✕</div>
+          <div id="ch0001true" class="chox true">✓</div>
+        </div>
+      </div>
+      <div class="setting-content" id="reloadPage">
+        <button id="reloadPageBtn" onclick="reload()">...</button>
+      </div>
+      <div class="setting-content" id="closePage">
+        <button id="closePageBtn" onclick="cLose()">...</button>
+      </div>
+    </div>
+    <button id="applySettings" onclick="applySettings();">...</button>
+  </div>
+  <div id="tabsContiner">
+    <button onclick="webSites();" class="tab websLang" id="webs">...</button>
+    <button onclick="mineCraft();" class="tab mcLang" id="mc">...</button>
+    <button onclick="blockStory();" class="tab bsLang" id="bs">...</button>
+  </div>
+  <div class="tabs-continer">
+    <div id="websContiner" class="tab-content" style="bottom:-100%;">
+      <h1 class="tab-title"><a class="websLang">...</a></h1>
+      <div class="card">
+        <div class="card-icon-frame">
+          <img src="index_data/textures/icons/smc.png" alt="Snake Mecha Collectors" class="card-icon">
+        </div>
+        <div class="card-content-frame">
+          <h3 class="card-title" id="smcName">...</h3>
+          <div class="card-content" id="smcContent">...</div>
+          <div class="card-buttons-frame">
+            <button class="part open-btn" onclick="linkOpenSmc();">...</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-icon-frame">
+          <img src="index_data/textures/icons/smc_lucky_house.png" alt="SMC Lucky House" class="card-icon">
+        </div>
+        <div class="card-content-frame">
+          <h3 class="card-title" id="smcLhName">...</h3>
+          <div class="card-content" id="smcLhContent">...</div>
+          <div class="card-buttons-frame">
+            <button class="part open-btn" onclick="linkOpenSmcLh();">...</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-icon-frame">
+          <img src="index_data/textures/icons/storage_player_2.png" alt="Storage Player 2" class="card-icon">
+        </div>
+        <div class="card-content-frame">
+          <h3 class="card-title" id="sp2Name">...</h3>
+          <div class="card-content" id="sp2Content">...</div>
+          <div class="card-buttons-frame">
+            <button class="part open-btn" onclick="linkOpenSp2();">...</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="mcContiner" class="tab-content" style="bottom:-100%;">
+      <h1 class="tab-title" id="mcLang"><a class="mcLang">...</a></h1>
+      <h3 id="modsLang" class="sub-titles">...</h3>
+      <div class="card">
+        <div class="card-icon-frame">
+          <img src="index_data/textures/icons/azurland.png" alt="Azurland" class="card-icon">
+        </div>
+        <div class="card-content-frame">
+          <h3 class="card-title" id="alName">...</h3>
+          <div class="card-content" id="alContent">...</div>
+          <div class="card-buttons-frame">
+            <button class="part down-btn-jar" onclick="linkDownAl();">...</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-icon-frame">
+          <img src="index_data/textures/icons/better_discs_of_minecraft.png" alt="Better Discs of Minecraft" class="card-icon pixel">
+        </div>
+        <div class="card-content-frame">
+          <h3 class="card-title" id="bdomName">...</h3>
+          <div class="card-content" id="bdomContent">...</div>
+          <div class="card-buttons-frame">
+            <button class="part down-btn-jar" onclick="linkDownBdom();">...</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-icon-frame">
+          <img src="index_data/textures/icons/gems_of_minecraft.png" alt="Gems of Minecraft" class="card-icon pixel">
+        </div>
+        <div class="card-content-frame">
+          <h3 class="card-title" id="gomName">...</h3>
+          <div class="card-content" id="gomContent">...</div>
+          <div class="card-buttons-frame">
+            <button class="part down-btn-jar" onclick="linkDownGom();">...</button>
+          </div>
+        </div>
+      </div>
+      <h3 id="texturesLang" class="sub-titles">...</h3>
+      <div class="card">
+        <div class="card-icon-frame">
+          <img src="index_data/textures/icons/appleskin_s_earth.png" alt="Appelskin's Earth" class="card-icon pixel">
+        </div>
+        <div class="card-content-frame">
+          <h3 class="card-title" id="aseName">...</h3>
+          <div class="card-content" id="aseContent">...</div>
+          <div class="card-buttons-frame">
+            <button class="part down-btn-zip" onclick="linkDownAse();">...</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-icon-frame">
+          <img src="index_data/textures/icons/eyephone_s24_ultra.png" alt="Eyephone S24 Ultra" class="card-icon">
+        </div>
+        <div class="card-content-frame">
+          <h3 class="card-title" id="epS24uName">...</h3>
+          <div class="card-content" id="epS24uContent">...</div>
+          <div class="card-buttons-frame">
+            <button class="part down-btn-zip" onclick="linkDownEpS24u();">...</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-icon-frame">
+          <img src="index_data/textures/icons/minecraft_is_latest.png" alt="Minecraft is Latest" class="card-icon">
+        </div>
+        <div class="card-content-frame">
+          <h3 class="card-title" id="mcIlName">...</h3>
+          <div class="card-content" id="mcIlContent">...</div>
+          <div class="card-buttons-frame">
+            <button class="part down-btn-zip" onclick="linkDownMcIl();">...</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="bsContiner" class="tab-content" style="bottom:-100%;">
+      <h1 class="tab-title" id="bsLang"><a class="bsLang">...</a></h1>
+      <div class="card">
+        <div class="card-icon-frame">
+          <img src="index_data/textures/icons/block_story_minecraft.png" alt="Minecraft 1.21.9" class="card-icon">
+        </div>
+        <div class="card-content-frame">
+          <h3 class="card-title" id="bsmcName">...</h3>
+          <div class="card-content" id="bsmcContent">...</div>
+          <div class="card-buttons-frame">
+            <button class="part down-btn-zip" onclick="linkDownBsmc();">...</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="alert-modal" id="alert">
+    <div class="alert-content" id="alertContent">
+      <div class="alert-name" id="alertName">...</div>
+      <div class="alert-text" id="alertText">...</div>
+      <div class="alert-buttons" id="alertButtons">
+        <button id="alertCancel">...</button>
+        <button id="alertConfirm">...</button>
+      </div>
+    </div>
+  </div>
+  <script src="index_data/scripts/tabs.js"></script>
+  <script src="index_data/scripts/language_text.js"></script>
+  <script src="index_data/scripts/plugins/language_text_cards.js"></script>
+  <script src="index_data/scripts/auto_set_local.js"></script>
+  <script src="index_data/scripts/favicon.js"></script>
+  <script src="index_data/scripts/settings_prechanges.js"></script>
+  <script src="index_data/scripts/apply_settings.js"></script>
+  <script src="index_data/scripts/customed_checkboxes.js"></script>
+  <script src="index_data/scripts/reload.js"></script>
+  <script src="index_data/scripts/close.js"></script>
+  <script src="index_data/scripts/keyboard_keys.js"></script>
+  <script src="index_data/scripts/download_links.js"></script>
+  <script src="index_data/scripts/sites_links.js"></script>
+  <script src="index_data/scripts/window_context.js"></script>
+  <script src="index_data/scripts/window_load.js"></script>
+</body>
+</html>
