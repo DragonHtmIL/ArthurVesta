@@ -1,0 +1,20 @@
+:root {
+  --text: #ffffffff;
+  --text-effect: #00C2ffff;
+  --text-active: #C2ff00ff;
+  --background: #0c0c0cff;
+  --header-border: #d3d3d3ff;
+  --header: #3d3d3d80;
+  --modals-backgrounds: #191919cc;
+  --shadow: #717171ff;
+  --shadow-effect: #00C2ffff;
+  --shadow-active: #C2ff00ff;
+  --border: #d3d3d3ff;
+  --border-effect: #00C2ffff;
+  --border-active: #C2ff00ff;
+  --color-false: #ff0040ff;
+  --close-icon: url('../textures/close_0.png');
+  --close-icon-colored: url('../textures/close_1.png');
+  --menu-button: url('../textures/menu_0.png');
+  --menu-button-colored: url('../textures/menu_1.png');
+}
