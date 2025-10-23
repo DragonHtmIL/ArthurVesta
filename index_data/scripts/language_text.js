@@ -11,8 +11,8 @@ function loadTexts() {
   var a009 = document.getElementById("smcName");
   var a010 = document.getElementById("smcContent");
   var a011 = document.getElementById("sLsLang");
-  var a012 = document.getElementById("smcLhName");
-  var a013 = document.getElementById("smcLhContent");
+//  var a012 = document.getElementById("");
+//  var a013 = document.getElementById("");
   var a014 = document.getElementById("sp2Name");
   var a015 = document.getElementById("sp2Content");
   var a016 = document.getElementById("modsLang");
@@ -52,8 +52,8 @@ function loadTexts() {
     a009.innerHTML = "Snake Mecha Collectors";
     a010.innerHTML = "A classic Snake Game with customizations of SMC.";
     a011.innerHTML = "Language";
-    a012.innerHTML = "SMC Lucky House";
-    a013.innerHTML = "Lucky Hose of SMC, collect mecha and pilots.";
+//    a012.innerHTML = "";
+//    a013.innerHTML = "";
     a014.innerHTML = "Storage Player";
     a015.innerHTML = "View your Images, Videos, Audios and Documents in your device.";
     a016.innerHTML = "- = Mods = -";
@@ -119,8 +119,8 @@ function loadTexts() {
     a009.innerHTML = "Змея Меха Сборщик";
     a010.innerHTML = "Классическая игра Змейка с настройками SMC.";
     a011.innerHTML = "Язык";
-    a012.innerHTML = "SMC Дом Удачи";
-    a013.innerHTML = "Дом Удачи SMC.";
+//    a012.innerHTML = "";
+//    a013.innerHTML = "";
     a014.innerHTML = "Проигрыватель Хранилище 2";
     a015.innerHTML = "Просмотр изображений, видео, аудио и документов в вашем устройстве.";
     a016.innerHTML = "- = Моды = -";
@@ -192,12 +192,8 @@ function loadTexts() {
      a010.style.textAlign = "right";
     a011.innerHTML = "שפה";
      a011.style.textAlign = "right";
-    a012.innerHTML = "בית המזל SMC";
-     a012.style.direction = "rtl";
-     a012.style.textAlign = "right";
-    a013.innerHTML = "בית המזל של SMC.";
-     a013.style.direction = "rtl";
-     a013.style.textAlign = "right";
+//    a012.innerHTML = "";
+//    a013.innerHTML = "";
     a014.innerHTML = "נגן אכסון 2";
      a014.style.direction = "rtl";
      a014.style.textAlign = "right";
