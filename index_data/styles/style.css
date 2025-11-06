@@ -464,4 +464,8 @@ strong a,
     border-bottom: solid 2px var(--border);
     border-radius: 0px;
   }
+  .card:hover {
+    border-left: none;
+    border-right: none;
+  }
 }
