@@ -19,3 +19,6 @@ function linkDownMcIl() {
 function linkDownBsmc() {
   window.location.href="index_data/documents/For Block Story 13.3.3.zip";
 };
+function linkDownCs() {
+  window.location.href="index_data/documents/AV_Copperserative_1.20.1.jar";
+};
