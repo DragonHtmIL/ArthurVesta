@@ -363,7 +363,7 @@ input[type="checkbox"] {
   color: var(--text-effect);
   border: solid 2px var(--border-effect);
   filter: drop-shadow(0 0 5px var(--shadow-effect));
-  letter-spacing: 1px;
+  letter-spacing: 0;
 }
 .card-icon-frame {
   float: left;
