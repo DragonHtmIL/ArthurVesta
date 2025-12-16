@@ -32,6 +32,8 @@ function loadTexts() {
   var a030 = document.getElementById("mcIlContent");
   var a031 = document.getElementById("bsmcName");
   var a032 = document.getElementById("bsmcContent");
+  var a033 = document.getElementById("spdcName");
+  var a034 = document.getElementById("spdcContent");
   /////////////////////////////////Sets/////////////////////////////////
   const a000_set = document.getElementsByClassName("websLang");
   const a001_set = document.getElementsByClassName("mcLang");
@@ -89,6 +91,8 @@ function loadTexts() {
     a032.innerHTML = "This theme is default look of Minecraft for Block Story game and with HD version.";
     a032.innerHTML += "<br>";
     a032.innerHTML += "<strong>Required game version: 13.3.4.2-13.3.3.</strong>";
+    a033.innerHTML = "SMC Pack DC";
+    a034.innerHTML = "Simple library of SMC Wallpapers, Avatars and Stickers for Discord or something else.";
     /////////////////////////////////Sets/////////////////////////////////
     for (let i = 0; i < a000_set.length; i++) {
       a000_set[i].textContent = "Websites";
@@ -158,6 +162,8 @@ function loadTexts() {
     a032.innerHTML = "Эта тема является стандартным оформлением Minecraft для игры Block Story и имеет HD-версию..";
     a032.innerHTML += "<br>";
     a032.innerHTML += "<strong>Требуемая версия игры: 13.3.4.2-13.3.3.</strong>";
+    a033.innerHTML = "SMC Pack DC";
+    a034.innerHTML = "Простая библиотека обоев, аватаров и стикеров SMC для Discord или чего-либо еще.";
     /////////////////////////////////Sets/////////////////////////////////
     for (let i = 0; i < a000_set.length; i++) {
       a000_set[i].textContent = "Веб-сайты";
@@ -256,6 +262,10 @@ function loadTexts() {
     a032.innerHTML += "<strong>נדרשת גרסת משחק: 13.3.4.2-13.3.3.</strong>";
      a032.style.direction = "rtl";
      a032.style.textAlign = "right";
+    a033.innerHTML = "SMC Pack DC";
+    a034.innerHTML = "ספרייה פשוטה של ​​טפטים, אווטארים ומדבקות של SMC עבור Discord או משהו אחר.";
+     a034.style.direction = "rtl";
+     a034.style.textAlign = "right";
     /////////////////////////////////Sets/////////////////////////////////
     for (let i = 0; i < a000_set.length; i++) {
       a000_set[i].textContent = "אתרי אינטרנט";
