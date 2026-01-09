@@ -61,6 +61,7 @@
           <div class="card-content" id="smcContent">...</div>
           <div class="card-buttons-frame">
             <button class="part open-btn" onclick="linkOpenSmc();">...</button>
+            <button class="part info-btn" onclick="showInfoSmc();">...</button>
           </div>
         </div>
       </div>
@@ -73,6 +74,7 @@
           <div class="card-content" id="sp2Content">...</div>
           <div class="card-buttons-frame">
             <button class="part open-btn" onclick="linkOpenSp2();">...</button>
+            <button class="part info-btn" onclick="showInfoSp();">...</button>
           </div>
         </div>
       </div>
@@ -85,6 +87,7 @@
           <div class="card-content" id="spdcContent">...</div>
           <div class="card-buttons-frame">
             <button class="part open-btn" onclick="linkOpenSpdc();">...</button>
+            <button class="part info-btn" onclick="showInfoSpdc();">...</button>
           </div>
         </div>
       </div>
@@ -137,6 +140,18 @@
           <div class="card-content" id="gomContent">...</div>
           <div class="card-buttons-frame">
             <button class="part down-btn-jar" onclick="linkDownGom();">...</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-icon-frame">
+          <img src="index_data/textures/icons/want_hots.png" alt="Want Hots" class="card-icon pixel">
+        </div>
+        <div class="card-content-frame">
+          <h3 class="card-title" id="whName">...</h3>
+          <div class="card-content" id="whContent">...</div>
+          <div class="card-buttons-frame">
+            <button class="part down-btn-jar" onclick="linkDownWh();">...</button>
           </div>
         </div>
       </div>
@@ -194,8 +209,17 @@
       </div>
     </div>
   </div>
-  <div class="alert-modal" id="alert">
-    <div class="alert-content" id="alertContent">
+  <div class="modal" id="infoModal">
+    <span id="closeInfoModal" onclick="document.getElementById('infoModal').style.right='-100%';" class="close-windows"></span>
+    <div class="modal-content" id="infoModal">
+      <img src="" alt="..." id="infoImage">
+      <h3 id="infoTitle">...</h3>
+      <hr>
+      <div id="infoContent">...</div>
+    </div>
+  </div>
+  <div class="modal" id="alert">
+    <div class="modal-content" id="alertContent">
       <div class="alert-name" id="alertName">...</div>
       <div class="alert-text" id="alertText">...</div>
       <div class="alert-buttons" id="alertButtons">
@@ -217,6 +241,7 @@
   <script src="index_data/scripts/keyboard_keys.js"></script>
   <script src="index_data/scripts/download_links.js"></script>
   <script src="index_data/scripts/sites_links.js"></script>
+  <script src="index_data/scripts/more_info.js"></script>
   <script src="index_data/scripts/window_context.js"></script>
   <script src="index_data/scripts/window_load.js"></script>
 </body>
