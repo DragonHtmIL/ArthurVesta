@@ -34,6 +34,8 @@ function loadTexts() {
   var a032 = document.getElementById("bsmcContent");
   var a033 = document.getElementById("spdcName");
   var a034 = document.getElementById("spdcContent");
+  var a035 = document.getElementById("whName");
+  var a036 = document.getElementById("whContent");
   /////////////////////////////////Sets/////////////////////////////////
   const a000_set = document.getElementsByClassName("websLang");
   const a001_set = document.getElementsByClassName("mcLang");
@@ -41,6 +43,7 @@ function loadTexts() {
   const a003_set = document.getElementsByClassName("down-btn-zip");
   const a004_set = document.getElementsByClassName("down-btn-jar");
   const a005_set = document.getElementsByClassName("bsLang");
+  const a006_set = document.getElementsByClassName("info-btn");
 
   if(localStorage.getItem("lang") === "en") {
     a001.innerHTML = "Settings";
@@ -51,7 +54,7 @@ function loadTexts() {
     a006.innerHTML = "Yes";
     a007.innerHTML = "Reload";
     a008.innerHTML = "Close";
-    a009.innerHTML = "Snake Mecha Collectors";
+    a009.innerHTML = "Snake Mecha Collector";
     a010.innerHTML = "A classic Snake Game with customizations of SMC.";
     a011.innerHTML = "Language";
     a012.innerHTML = "Copperserative";
@@ -93,6 +96,10 @@ function loadTexts() {
     a032.innerHTML += "<strong>Required game version: 13.3.4.2-13.3.3.</strong>";
     a033.innerHTML = "SMC Pack DC";
     a034.innerHTML = "Simple library of SMC Wallpapers, Avatars and Stickers for Discord or something else.";
+    a035.innerHTML = "Want Hots";
+    a036.innerHTML = "Mod adds Cups of Tea, Coffea, Green Tea and Black Coffea.";
+    a036.innerHTML += "<br>";
+    a036.innerHTML += "<strong>Required game version: Forge 1.20.1.</strong>";
     /////////////////////////////////Sets/////////////////////////////////
     for (let i = 0; i < a000_set.length; i++) {
       a000_set[i].textContent = "Websites";
@@ -111,6 +118,9 @@ function loadTexts() {
     };
     for (let i = 0; i < a005_set.length; i++) {
       a005_set[i].textContent = "Block Story";
+    };
+    for (let i = 0; i < a006_set.length; i++) {
+      a006_set[i].textContent = "More Info";
     };
   }else
   if(localStorage.getItem("lang") === "ru") {
@@ -164,6 +174,10 @@ function loadTexts() {
     a032.innerHTML += "<strong>Требуемая версия игры: 13.3.4.2-13.3.3.</strong>";
     a033.innerHTML = "SMC Pack DC";
     a034.innerHTML = "Простая библиотека обоев, аватаров и стикеров SMC для Discord или чего-либо еще.";
+    a035.innerHTML = "Хочу горячее";
+    a036.innerHTML = "Мод добавляет чашки чая, кофе, зелёного чая и чёрного кофе.";
+    a036.innerHTML += "<br>";
+    a036.innerHTML += "<strong>Требуемая версия игры: Forge 1.20.1.</strong>";
     /////////////////////////////////Sets/////////////////////////////////
     for (let i = 0; i < a000_set.length; i++) {
       a000_set[i].textContent = "Веб-сайты";
@@ -182,6 +196,9 @@ function loadTexts() {
     };
     for (let i = 0; i < a005_set.length; i++) {
       a005_set[i].textContent = "Block Story";
+    };
+    for (let i = 0; i < a006_set.length; i++) {
+      a006_set[i].textContent = "Дополнительная информация";
     };
   }else
   if(localStorage.getItem("lang") === "he") {
@@ -266,6 +283,12 @@ function loadTexts() {
     a034.innerHTML = "ספרייה פשוטה של ​​טפטים, אווטארים ומדבקות של SMC עבור Discord או משהו אחר.";
      a034.style.direction = "rtl";
      a034.style.textAlign = "right";
+    a035.innerHTML = "רוצה חמים";
+    a036.innerHTML = "מוד מוסיף כוסות תה, קפה, תה ירוק וקפה שחור.";
+    a036.innerHTML += "<br>";
+    a036.innerHTML += "<strong>נדרשת גרסת משחק: Forge 1.20.1.</strong>";
+     a035.style.direction = "rtl";
+     a036.style.textAlign = "right";
     /////////////////////////////////Sets/////////////////////////////////
     for (let i = 0; i < a000_set.length; i++) {
       a000_set[i].textContent = "אתרי אינטרנט";
@@ -286,6 +309,9 @@ function loadTexts() {
     };
     for (let i = 0; i < a005_set.length; i++) {
       a005_set[i].textContent = "Block Story";
+    };
+    for (let i = 0; i < a006_set.length; i++) {
+      a006_set[i].textContent = "מידע נוסף";
     };
   }
   a000.innerHTML = "ArthurVesta";

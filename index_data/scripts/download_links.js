@@ -22,3 +22,6 @@ function linkDownBsmc() {
 function linkDownCs() {
   window.location.href="index_data/documents/AV_Copperserative_1.20.1.jar";
 };
+function linkDownWh() {
+  window.location.href="index_data/documents/AV_Want_Hots_1.20.1.jar";
+};
