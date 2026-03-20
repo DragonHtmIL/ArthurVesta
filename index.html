@@ -46,6 +46,7 @@
   </div>
   <div id="tabsContiner">
     <button onclick="webSites();" class="tab websLang" id="webs">...</button>
+    <button onclick="androidApps();" class="tab aiAppsLang" id="aiApps">...</button>
     <button onclick="mineCraft();" class="tab mcLang" id="mc">...</button>
     <button onclick="blockStory();" class="tab bsLang" id="bs">...</button>
   </div>
@@ -88,6 +89,22 @@
           <div class="card-buttons-frame">
             <button class="part open-btn" onclick="linkOpenSpdc();">...</button>
             <button class="part info-btn" onclick="showInfoSpdc();">...</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="aiAppsContiner" class="tab-content" style="bottom:-100%;">
+      <h1 class="tab-title"><a class="aiAppsLang">...</a></h1>
+      <div class="card">
+        <div class="card-icon-frame">
+          <img src="index_data/textures/icons/events_creator.png" alt="Events Creator" class="card-icon">
+        </div>
+        <div class="card-content-frame">
+          <h3 class="card-title" id="ecName">...</h3>
+          <div class="card-content" id="ecContent">...</div>
+          <div class="card-buttons-frame">
+            <button class="part down-btn-apk" onclick="linkDownEc();">...</button>
+            <button class="part info-btn" onclick="showInfoEc();">...</button>
           </div>
         </div>
       </div>
@@ -230,7 +247,6 @@
   </div>
   <script src="index_data/scripts/tabs.js"></script>
   <script src="index_data/scripts/language_text.js"></script>
-  <script src="index_data/scripts/plugins/language_text_cards.js"></script>
   <script src="index_data/scripts/auto_set_local.js"></script>
   <script src="index_data/scripts/favicon.js"></script>
   <script src="index_data/scripts/settings_prechanges.js"></script>
