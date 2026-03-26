@@ -107,7 +107,7 @@ function showInfoSmc() {
 };
 function showInfoEc() {
   const en = [
-    "Events Creator 1.0.0-latest",
+    "Events Creator 1.0.2-latest",
     "This app use HTML, CSS and JS files for display your events.",
     "Project created with Android Studio Panda.",
     "<br>",
@@ -135,7 +135,7 @@ function showInfoEc() {
     "Ideas: ArthurVesta(DragonHtmIL)."
   ];
   const ru = [
-    "Создатель событий 1.0.0-latest",
+    "Создатель событий 1.0.2-latest",
     "Это приложение использует файлы HTML, CSS и JS для отображения ваших событий.",
     "Проект создан с помощью Android Studio Panda.",
     "<br>",
@@ -163,7 +163,7 @@ function showInfoEc() {
     "Идеи: ArthurVesta(DragonHtmIL)."
   ];
   const he = [
-    "יוצר אירועים 1.0.0-latest",
+    "יוצר אירועים 1.0.2-latest",
     "אפליקציה זו משתמשת בקבצי HTML, CSS ו-JS כדי להציג את האירועים שלך.",
     "הפרויקט נוצר עם Android Studio Panda.",
     "<br>",

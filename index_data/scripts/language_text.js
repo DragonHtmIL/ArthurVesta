@@ -26,8 +26,8 @@ function loadTexts() {
   var a024 = document.getElementById("gomContent");
   var a025 = document.getElementById("aseName");
   var a026 = document.getElementById("aseContent");
-  var a027 = document.getElementById("epS24uName");
-  var a028 = document.getElementById("epS24uContent");
+  var a027 = document.getElementById("tvS24uName");
+  var a028 = document.getElementById("tvS24uContent");
   var a029 = document.getElementById("mcIlName");
   var a030 = document.getElementById("mcIlContent");
   var a031 = document.getElementById("bsmcName");
@@ -38,6 +38,8 @@ function loadTexts() {
   var a036 = document.getElementById("whContent");
   var a037 = document.getElementById("ecName");
   var a038 = document.getElementById("ecContent");
+  var a039 = document.getElementById("hsrS24uName");
+  var a040 = document.getElementById("hsrS24uContent");
   /////////////////////////////////Sets/////////////////////////////////
   const a000_set = document.getElementsByClassName("websLang");
   const a001_set = document.getElementsByClassName("mcLang");
@@ -108,6 +110,10 @@ function loadTexts() {
     a038.innerHTML = "This app use HTML, CSS and JS files for display your events.<br>Project created with Android Studio Panda.";
     a038.innerHTML += "<br>";
     a038.innerHTML += "<strong>Required version: Android 7.0+.</strong>";
+    a039.innerHTML = "Eyephone S24 Ultra HSR Trailblazer";
+    a040.innerHTML = "This texture change the model for Eyephone in mod <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a> to S24 Ultra with skin HSR Trailblazer.";
+    a040.innerHTML += "<br>";
+    a040.innerHTML += "<strong>Required game version: 1.20.1 and mod <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>";
     /////////////////////////////////Sets/////////////////////////////////
     for (let i = 0; i < a000_set.length; i++) {
       a000_set[i].textContent = "Websites";
@@ -196,6 +202,10 @@ function loadTexts() {
     a038.innerHTML = "Это приложение использует файлы HTML, CSS и JS для отображения ваших событий.<br>Проект создан с помощью Android Studio Panda.";
     a038.innerHTML += "<br>";
     a038.innerHTML += "<strong>Требуемая версия: Android 7.0+.</strong>";
+    a039.innerHTML = "Eyephone S24 Ultra HSR Trailblazer";
+    a040.innerHTML = "Эта текстура меняет модель для Eyephone в моде <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a> в S24 Ultra с обложкой HSR Trailblazer.";
+    a040.innerHTML += "<br>";
+    a040.innerHTML += "<strong>Требуемая версия игры: 1.20.1 и мод <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>";
     /////////////////////////////////Sets/////////////////////////////////
     for (let i = 0; i < a000_set.length; i++) {
       a000_set[i].textContent = "Веб-сайты";
@@ -285,7 +295,7 @@ function loadTexts() {
     a026.innerHTML += "<strong>נדרשת גרסת משחק: 1.20.1 ומוד <a href='https://www.curseforge.com/minecraft/texture-packs/earth-gui'>AppleSkin</a>.</strong>";
      a026.style.direction = "rtl";
      a026.style.textAlign = "right";
-    a027.innerHTML = "Eyephone S24 Ultra";
+    a027.innerHTML = "Eyephone S24 Ultra Titanium Violet";
     a028.innerHTML = "הטקסטורה הזו משנה את המודל עבור Eyephone במוד <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a> לS24 Ultra.";
     a028.innerHTML += "<br>";
     a028.innerHTML += "<strong>נדרשת גרסת משחק: 1.20.1 ומוד <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>";
@@ -319,6 +329,12 @@ function loadTexts() {
     a038.innerHTML += "<strong>נדרשת גרסה: Android 7.0+.</strong>";
      a037.style.direction = "rtl";
      a038.style.textAlign = "right";
+    a039.innerHTML = "Eyephone S24 Ultra HSR Trailblazer";
+    a040.innerHTML = "הטקסטורה הזו משנה את המודל עבור Eyephone במוד <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a> לS24 Ultra עם מעטפת HSR Trailblazer.";
+    a040.innerHTML += "<br>";
+    a040.innerHTML += "<strong>נדרשת גרסת משחק: 1.20.1 ומוד <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>";
+     a040.style.direction = "rtl";
+     a040.style.textAlign = "right";
     /////////////////////////////////Sets/////////////////////////////////
     for (let i = 0; i < a000_set.length; i++) {
       a000_set[i].textContent = "אתרי אינטרנט";
