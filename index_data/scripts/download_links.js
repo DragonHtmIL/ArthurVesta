@@ -14,7 +14,7 @@ function linkDownTvS24u() {
   window.location.href="index_data/documents/Eyephone S24 Ultra Titanium Violet§0.zip";
 };
 function linkDownMcIl() {
-  window.location.href="index_data/documents/Minecraft is Latest§0.zip";
+  window.location.href="index_data/documents/Minecraft is Latest§0 1.20.1.zip";
 };
 function linkDownBsmc() {
   window.location.href="index_data/documents/For Block Story 13.3.3.zip";
