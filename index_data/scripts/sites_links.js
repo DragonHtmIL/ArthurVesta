@@ -5,5 +5,5 @@ function linkOpenSp2() {
   window.location.href="https://dragonhtmil.github.io/mnts.sp.org/";
 };
 function linkOpenSpdc() {
-  window.location.href="https://dragonhtmil.github.io/SMC_Pack_DC/";
+  window.location.href="https://dragonhtmil.github.io/mnts.dc.org/";
 };

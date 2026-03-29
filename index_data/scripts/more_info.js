@@ -219,7 +219,7 @@ function showInfoSp() {
   const en = [
     "Storage Player 0.1.6-09012026",
     "This is a Player of uploaded files like Videos, Images, Audios and Documents.",
-    "ArthurVesta make this minigame with love SMC by coding a lot from 30 minutes-1~2 hours through <a href='https://code.visualstudio.com'>Visual Studio Code</a>.",
+    "ArthurVesta make this WebApp with coding a lot from 30 minutes-1~2 hours through <a href='https://code.visualstudio.com'>Visual Studio Code</a>.",
     "Supports keyboard buttons",
     "ESC, 1-4",
     "Languages",
@@ -235,7 +235,7 @@ function showInfoSp() {
   const ru = [
     "Плеер хранения 0.1.6-09012026",
     "Это проигрыватель загруженных файлов, таких как видео, изображения, аудио и документы.",
-    "ArthurVesta создал эту мини-игру с любовью к SMC написав кода много часов за 30 минут -1~2 с помощью <a href='https://code.visualstudio.com'>Visual Studio Code</a>.",
+    "ArthurVesta создал эту веб-приложение написав кода много часов за 30 минут -1~2 с помощью <a href='https://code.visualstudio.com'>Visual Studio Code</a>.",
     "Поддерживает кнопки клавиатуры",
     "ESC, 1-4",
     "Языки",
@@ -251,7 +251,7 @@ function showInfoSp() {
   const he = [
     "נגן אחסון 0.1.6-09012026",
     "זהו נגן של קבצים שהועלו כמו סרטונים, תמונות, שמע ומסמכים.",
-    "ArthurVesta יצר את המיני-משחק הזה באהבה SMC על ידי קידוד שעות רבות מ-30 דקות -עד שעה~שעתיים, באמצעות <a href='https://code.visualstudio.com'>Visual Studio Code</a>.",
+    "ArthurVesta יצר את הוויב-אפליקציה הזו על ידי קידוד שעות רבות מ-30 דקות -עד שעה~שעתיים, באמצעות <a href='https://code.visualstudio.com'>Visual Studio Code</a>.",
     "תומך בכפתורי מקלדת",
     "ESC, 1-4",
     "שפות",
@@ -284,6 +284,74 @@ function showInfoSp() {
      title.style.direction = "rtl";
      title.style.textAlign = "right";
     content.innerHTML = he[1] + "<br>" + he[2] + "<br>" + he[3] + "<br>" + he[4] + "<br>" + he[5] + "<br>" + he[6] + "<br>" + he[7] + "<br>" + he[8] + "<br>" + he[9] + "<br>" + he[10] + "<br>" + he[11] + "<br>" + he[12] + "<br>" + he[13];
+     content.style.direction = "rtl";
+     content.style.textAlign = "right";
+  };
+  prog.style.display = "block";
+};
+function showInfoSpdc() {
+  const en = [
+    "SMC Library 0.1.0-30032026",
+    "This is a library for the SMC Stickers, Avatars and Wallpapers.",
+    "ArthurVesta make this WebLibrary with love SMC by coding a lot from 30 minutes-1~2 hours through <a href='https://code.visualstudio.com'>Visual Studio Code</a>.",
+    "Supports keyboard buttons",
+    "Not support for current version",
+    "Languages",
+    " English Only for current version",
+    "<img src='https://github.com/user-attachments/assets/9fc9ef63-7696-4ee0-9cb1-be625d87cf9b' style='width: 55px; height: 55px'>",
+    "This site is with copyrights!",
+    "Do not distribute any of scripts and images!",
+    "and this site is free usage;",
+    "Have fun!"
+  ];
+  const ru = [
+    "SMC Библиотека 0.1.0-30032026",
+    "Это библиотека для стикеров, аватаров и обоев SMC.",
+    "ArthurVesta создал эту веб-библиотеку с любовью к SMC написав кода много часов за 30 минут -1~2 с помощью <a href='https://code.visualstudio.com'>Visual Studio Code</a>.",
+    "Поддерживает кнопки клавиатуры",
+    "Не поддерживается для текущей версии",
+    "Языки",
+    " Английский Только для текущей версии",
+    "<img src='https://github.com/user-attachments/assets/9fc9ef63-7696-4ee0-9cb1-be625d87cf9b' style='width: 55px; height: 55px'>",
+    "Этот сайт с копирайтами!",
+    "Не распространяйте никакие скрипты и изображения!",
+    "и этот сайт бесплатный для использования;",
+    "Веселитьсь!"
+  ];
+  const he = [
+    "ספריית SMC 0.1.0-30032026",
+    "זו ספרייה למדבקות, אווטרים וקירות דף של SMC.",
+    "ArthurVesta יצר את הוויב-סיפרייה הזו באהבה SMC על ידי קידוד שעות רבות מ-30 דקות -עד שעה~שעתיים, באמצעות <a href='https://code.visualstudio.com'>Visual Studio Code</a>.",
+    "תומך בכפתורי מקלדת",
+    "לא נתמך עבור הגרסה הנוכחית",
+    "שפות",
+    " אנגלית רק עבור הגרסה הנוכחית",
+    "<img src='https://github.com/user-attachments/assets/9fc9ef63-7696-4ee0-9cb1-be625d87cf9b' style='width: 55px; height: 55px'>",
+    "אתר זה הוא עם זכויות!",
+    "אין להפיץ שום סקריפטים! ו-תמונות!",
+    "והאתר הזה הוא לשימוש חופשי;",
+    "תהנו!"
+  ];
+  var modal = document.getElementById("infoModal");
+  var image = document.getElementById("infoImage");
+  var title = document.getElementById("infoTitle");
+  var content = document.getElementById("infoContent");
+  var prog = document.getElementById("infoProgress");
+  modal.style.right = "0%";
+  image.src = "index_data/textures/icons/storage_player_2.png";
+  if(localStorage.getItem("lang") === "en") {
+    title.innerHTML = en[0];
+    content.innerHTML = en[1] + "<br>" + en[2] + "<br>" + en[3] + "<br>" + en[4] + "<br>" + en[5] + "<br>" + en[6] + "<br>" + en[7] + "<br>" + en[8] + "<br>" + en[9] + "<br>" + en[10] + "<br>" + en[11];
+  }else
+  if(localStorage.getItem("lang") === "ru") {
+    title.innerHTML = ru[0];
+    content.innerHTML = ru[1] + "<br>" + ru[2] + "<br>" + ru[3] + "<br>" + ru[4] + "<br>" + ru[5] + "<br>" + ru[6] + "<br>" + ru[7] + "<br>" + ru[8] + "<br>" + ru[9] + "<br>" + ru[10] + "<br>" + ru[11];
+  }else
+  if(localStorage.getItem("lang") === "he") {
+    title.innerHTML = he[0];
+     title.style.direction = "rtl";
+     title.style.textAlign = "right";
+    content.innerHTML = he[1] + "<br>" + he[2] + "<br>" + he[3] + "<br>" + he[4] + "<br>" + he[5] + "<br>" + he[6] + "<br>" + he[7] + "<br>" + he[8] + "<br>" + he[9] + "<br>" + he[10] + "<br>" + he[11];
      content.style.direction = "rtl";
      content.style.textAlign = "right";
   };
