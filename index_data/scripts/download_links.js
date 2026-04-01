@@ -25,9 +25,6 @@ function linkDownCs() {
 function linkDownWh() {
   window.location.href="index_data/documents/AV_Want_Hots_1.20.1.jar";
 };
-function linkDownEc() {
-  window.location.href="https://github.com/DragonHtmIL/mnts.esc.org/releases/download/eventscreator/app-debug.apk";
-};
 function linkDownHsrTrailblazerS24u() {
   window.location.href="index_data/documents/Eyephone S24 Ultra HSR Trailblazer§0.zip";
 };
