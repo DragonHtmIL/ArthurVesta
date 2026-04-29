@@ -7,6 +7,7 @@
   <title>...</title>
   <link rel="stylesheet" id="styleRoot" href="index_data/styles/root.css">
   <link rel="stylesheet" id="styleBase" href="index_data/styles/style.css">
+  <link rel="stylesheet" id="styleBase" href="index_data/styles/plugins/style.css">
 </head>
 <body>
   <div id="header">
@@ -63,6 +64,7 @@
           <div class="card-buttons-frame">
             <button class="part open-btn" onclick="linkOpenSmc();">...</button>
             <button class="part info-btn" onclick="showInfoSmc();">...</button>
+            <button class="part data-btn" onclick="document.getElementById('profileDataContent').style.right = '0';">...</button>
           </div>
         </div>
       </div>
@@ -172,6 +174,18 @@
           </div>
         </div>
       </div>
+      <div class="card">
+        <div class="card-icon-frame">
+          <img src="index_data/textures/icons/teleporters.png" alt="Teleporters" class="card-icon pixel">
+        </div>
+        <div class="card-content-frame">
+          <h3 class="card-title" id="tpName">...</h3>
+          <div class="card-content" id="tpContent">...</div>
+          <div class="card-buttons-frame">
+            <button class="part down-btn-jar" onclick="linkDownTp();">...</button>
+          </div>
+        </div>
+      </div>
       <h3 id="texturesLang" class="sub-titles">...</h3>
       <div class="card">
         <div class="card-icon-frame">
@@ -221,6 +235,42 @@
           </div>
         </div>
       </div>
+      <div class="card">
+        <div class="card-icon-frame">
+          <img src="index_data/textures/icons/minecraft_is_latest_quark.png" alt="Minecraft is Latest Quark" class="card-icon">
+        </div>
+        <div class="card-content-frame">
+          <h3 class="card-title" id="mcIlqName">...</h3>
+          <div class="card-content" id="mcIlqContent">...</div>
+          <div class="card-buttons-frame">
+            <button class="part down-btn-zip" onclick="linkDownMcIlq();">...</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-icon-frame">
+          <img src="index_data/textures/icons/minecraft_is_latest_panorama.png" alt="Minecraft is Latest Panorama" class="card-icon">
+        </div>
+        <div class="card-content-frame">
+          <h3 class="card-title" id="mcIlpName">...</h3>
+          <div class="card-content" id="mcIlpContent">...</div>
+          <div class="card-buttons-frame">
+            <button class="part down-btn-zip" onclick="linkDownMcIlp();">...</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-icon-frame">
+          <img src="index_data/textures/icons/fantasy_ores_gom.png" alt="Fantasy Ores GOM" class="card-icon">
+        </div>
+        <div class="card-content-frame">
+          <h3 class="card-title" id="foName">...</h3>
+          <div class="card-content" id="foContent">...</div>
+          <div class="card-buttons-frame">
+            <button class="part down-btn-zip" onclick="linkDownFo();">...</button>
+          </div>
+        </div>
+      </div>
     </div>
     <div id="bsContiner" class="tab-content" style="bottom:-100%;">
       <h1 class="tab-title" id="bsLang"><a class="bsLang">...</a></h1>
@@ -234,6 +284,586 @@
           <div class="card-buttons-frame">
             <button class="part down-btn-zip" onclick="linkDownBsmc();">...</button>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="profileDataContent">
+    <span id="closeDataModal" onclick="document.getElementById('profileDataContent').style.right='-100%';" class="close-windows"></span>
+    <div class="in-data-modal">
+      <div id="proger">
+        <div id="smcName"></div>
+        <div id="smcHscore"></div>
+        <div id="smcLeague"></div>
+      </div>
+      <hr>
+      <h3 id="smcPilotTitleCategory"></h3>
+      <div id="smcPilot">
+        <div class="char-cont aya">
+          <div class="char-cont-status" id="ayaGet"></div>
+        </div>
+        <div class="char-cont belladonna">
+          <div class="char-cont-status" id="belladonnaGet"></div>
+        </div>
+        <div class="char-cont cyrus">
+          <div class="char-cont-status" id="cyrusGet"></div>
+          <div class="char-cont-status skin" id="djGet"></div>
+        </div>
+        <div class="char-cont fran">
+          <div class="char-cont-status" id="franGet"></div>
+        </div>
+        <div class="char-cont furanku">
+          <div class="char-cont-status" id="furankuGet"></div>
+        </div>
+        <div class="char-cont iori">
+          <div class="char-cont-status" id="ioriGet"></div>
+        </div>
+        <div class="char-cont ivan">
+          <div class="char-cont-status" id="ivanGet"></div>
+        </div>
+        <div class="char-cont jaka">
+          <div class="char-cont-status" id="jakaGet"></div>
+        </div>
+        <div class="char-cont jiu">
+          <div class="char-cont-status" id="jiuGet"></div>
+        </div>
+        <div class="char-cont joanna">
+          <div class="char-cont-status" id="joannaGet"></div>
+        </div>
+        <div class="char-cont kije">
+          <div class="char-cont-status" id="kijeGet"></div>
+        </div>
+        <div class="char-cont kikina">
+          <div class="char-cont-status" id="kikinaGet"></div>
+        </div>
+        <div class="char-cont kizuna">
+          <div class="char-cont-status" id="kizunaGet"></div>
+        </div>
+        <div class="char-cont lillian">
+          <div class="char-cont-status" id="lillianGet"></div>
+        </div>
+        <div class="char-cont lysa">
+          <div class="char-cont-status" id="lysaGet"></div>
+        </div>
+        <div class="char-cont matilda">
+          <div class="char-cont-status" id="matildaGet"></div>
+        </div>
+        <div class="char-cont mia">
+          <div class="char-cont-status" id="miaGet"></div>
+        </div>
+        <div class="char-cont mila">
+          <div class="char-cont-status" id="milaGet"></div>
+        </div>
+        <div class="char-cont mobius">
+          <div class="char-cont-status" id="mobiusGet"></div>
+        </div>
+        <div class="char-cont nighthawk">
+          <div class="char-cont-status" id="nighthawkGet"></div>
+        </div>
+        <div class="char-cont ning">
+          <div class="char-cont-status" id="ningGet"></div>
+        </div>
+        <div class="char-cont norma">
+          <div class="char-cont-status" id="normaGet"></div>
+        </div>
+        <div class="char-cont opal">
+          <div class="char-cont-status" id="opalGet"></div>
+        </div>
+        <div class="char-cont purity">
+          <div class="char-cont-status" id="purityGet"></div>
+        </div>
+        <div class="char-cont red">
+          <div class="char-cont-status" id="redGet"></div>
+        </div>
+        <div class="char-cont riko">
+          <div class="char-cont-status" id="rikoGet"></div>
+        </div>
+        <div class="char-cont rom">
+          <div class="char-cont-status" id="romGet"></div>
+        </div>
+        <div class="char-cont serena">
+          <div class="char-cont-status" id="serenaGet"></div>
+        </div>
+        <div class="char-cont shin">
+          <div class="char-cont-status" id="shinGet"></div>
+        </div>
+        <div class="char-cont silver">
+          <div class="char-cont-status" id="silverGet"></div>
+        </div>
+        <div class="char-cont tarantula">
+          <div class="char-cont-status" id="tarantulaGet"></div>
+        </div>
+        <div class="char-cont vanessa">
+          <div class="char-cont-status" id="vanessaGet"></div>
+        </div>
+        <div class="char-cont villar">
+          <div class="char-cont-status" id="villarGet"></div>
+        </div>
+        <div class="char-cont vita">
+          <div class="char-cont-status" id="vitaGet"></div>
+        </div>
+        <div class="char-cont yang">
+          <div class="char-cont-status" id="yangGet"></div>
+        </div>
+        <div class="char-cont yulia">
+          <div class="char-cont-status" id="yuliaGet"></div>
+        </div>
+        <div class="char-cont yutong">
+          <div class="char-cont-status" id="yutongGet"></div>
+        </div>
+        <div class="char-cont zoe">
+          <div class="char-cont-status" id="zoeGet"></div>
+        </div>
+      </div>
+      <hr>
+      <h3 id="smcMechaTitleCategory"></h3>
+      <div id="smcMecha">
+        <div class="char-cont akashic">
+          <div class="char-cont-status" id="akashicGet"></div>
+        </div>
+        <div class="char-cont alborada">
+          <div class="char-cont-status" id="alboradaGet"></div>
+        </div>
+        <div class="char-cont arthur">
+          <div class="char-cont-status" id="arthurGet"></div>
+        </div>
+        <div class="char-cont aurora">
+          <div class="char-cont-status" id="auroraGet"></div>
+          <div class="char-cont-status skin" id="cosmicGet"></div>
+        </div>
+        <div class="char-cont boltus">
+          <div class="char-cont-status" id="boltusGet"></div>
+        </div>
+        <div class="char-cont caramel">
+          <div class="char-cont-status" id="caramelGet"></div>
+        </div>
+        <div class="char-cont death">
+          <div class="char-cont-status" id="deathGet"></div>
+        </div>
+        <div class="char-cont doomlight">
+          <div class="char-cont-status" id="doomlightGet"></div>
+        </div>
+        <div class="char-cont dreadwolf">
+          <div class="char-cont-status" id="dreadwolfGet"></div>
+        </div>
+        <div class="char-cont firefox">
+          <div class="char-cont-status" id="firefoxGet"></div>
+        </div>
+        <div class="char-cont firestar">
+          <div class="char-cont-status" id="firestarGet"></div>
+        </div>
+        <div class="char-cont flamenco">
+          <div class="char-cont-status" id="flamencoGet"></div>
+        </div>
+        <div class="char-cont gabriel">
+          <div class="char-cont-status" id="gabrielGet"></div>
+        </div>
+        <div class="char-cont gaia">
+          <div class="char-cont-status" id="gaiaGet"></div>
+        </div>
+        <div class="char-cont guerilla">
+          <div class="char-cont-status" id="guerillaGet"></div>
+        </div>
+        <div class="char-cont hotsteel">
+          <div class="char-cont-status" id="hotsteelGet"></div>
+        </div>
+        <div class="char-cont hurricane">
+          <div class="char-cont-status" id="hurricaneGet"></div>
+        </div>
+        <div class="char-cont jojo">
+          <div class="char-cont-status" id="jojoGet"></div>
+        </div>
+        <div class="char-cont lancelot">
+          <div class="char-cont-status" id="lancelotGet"></div>
+        </div>
+        <div class="char-cont michael">
+          <div class="char-cont-status" id="michaelGet"></div>
+        </div>
+        <div class="char-cont moon">
+          <div class="char-cont-status" id="moonGet"></div>
+        </div>
+        <div class="char-cont nebula">
+          <div class="char-cont-status" id="nebulaGet"></div>
+        </div>
+        <div class="char-cont neutron">
+          <div class="char-cont-status" id="neutronGet"></div>
+        </div>
+        <div class="char-cont northern">
+          <div class="char-cont-status" id="northernGet"></div>
+        </div>
+        <div class="char-cont pulsar">
+          <div class="char-cont-status" id="pulsarGet"></div>
+          <div class="char-cont-status skin" id="yellowGet"></div>
+        </div>
+        <div class="char-cont ranger">
+          <div class="char-cont-status" id="rangerGet"></div>
+        </div>
+        <div class="char-cont raven">
+          <div class="char-cont-status" id="ravenGet"></div>
+          <div class="char-cont-status skin" id="shadowGet"></div>
+        </div>
+        <div class="char-cont shiranui">
+          <div class="char-cont-status" id="shiranuiGet"></div>
+        </div>
+        <div class="char-cont skyfall">
+          <div class="char-cont-status" id="skyfallGet"></div>
+        </div>
+        <div class="char-cont skyfire">
+          <div class="char-cont-status" id="skyfireGet"></div>
+        </div>
+        <div class="char-cont skylark">
+          <div class="char-cont-status" id="skylarkGet"></div>
+        </div>
+        <div class="char-cont snow">
+          <div class="char-cont-status" id="snowGet"></div>
+        </div>
+        <div class="char-cont tempest">
+          <div class="char-cont-status" id="tempestGet"></div>
+        </div>
+        <div class="char-cont trio">
+          <div class="char-cont-status" id="trioGet"></div>
+        </div>
+        <div class="char-cont twilight">
+          <div class="char-cont-status" id="twilightGet"></div>
+        </div>
+        <div class="char-cont ventorus">
+          <div class="char-cont-status" id="ventorusGet"></div>
+        </div>
+      </div>
+      <hr>
+      <h3 id="smcFoodTitleCategory"></h3>
+      <div id="smcItem">
+        <div class="item-cont meow">
+          <div class="item-cont-icon" id="meowIcon"></div>
+          <div class="item-cont-label" id="collectedMeow">0</div>
+        </div>
+        <div class="item-cont gold">
+          <div class="item-cont-icon" id="goldIcon"></div>
+          <div class="item-cont-label" id="collectedGold">0</div>
+        </div>
+        <div class="item-cont alphacoin">
+          <div class="item-cont-icon" id="alphacoinIcon"></div>
+          <div class="item-cont-label" id="collectedAlphacoin">0</div>
+        </div>
+        <div class="item-cont crystal">
+          <div class="item-cont-icon" id="crystalIcon"></div>
+          <div class="item-cont-label" id="collectedCrystal">0</div>
+        </div>
+        <div class="item-cont virtualToken">
+          <div class="item-cont-icon" id="virtualTokenIcon"></div>
+          <div class="item-cont-label" id="collectedVirtualToken">0</div>
+        </div>
+        <div class="item-cont food-item-000-content">
+          <div class="item-cont-icon" id="food000Item0Icon"></div>
+          <div class="item-cont-label" id="collected000Food">0</div>
+        </div>
+        <div class="item-cont food-item-001-content">
+          <div class="item-cont-icon" id="food001Item0Icon"></div>
+          <div class="item-cont-label" id="collected001Food">0</div>
+        </div>
+        <div class="item-cont food-item-002-content">
+          <div class="item-cont-icon" id="food002Item0Icon"></div>
+          <div class="item-cont-label" id="collected002Food">0</div>
+        </div>
+        <div class="item-cont food-item-003-content">
+          <div class="item-cont-icon" id="food003Item0Icon"></div>
+          <div class="item-cont-label" id="collected003Food">0</div>
+        </div>
+        <div class="item-cont food-item-004-content">
+          <div class="item-cont-icon" id="food004Item0Icon"></div>
+          <div class="item-cont-label" id="collected004Food">0</div>
+        </div>
+        <div class="item-cont food-item-005-content">
+          <div class="item-cont-icon" id="food005Item0Icon"></div>
+          <div class="item-cont-label" id="collected005Food">0</div>
+        </div>
+        <div class="item-cont food-item-006-content">
+          <div class="item-cont-icon" id="food006Item0Icon"></div>
+          <div class="item-cont-label" id="collected006Food">0</div>
+        </div>
+        <div class="item-cont food-item-007-content">
+          <div class="item-cont-icon" id="food007Item0Icon"></div>
+          <div class="item-cont-label" id="collected007Food">0</div>
+        </div>
+        <div class="item-cont food-item-008-content">
+          <div class="item-cont-icon" id="food008Item0Icon"></div>
+          <div class="item-cont-label" id="collected008Food">0</div>
+        </div>
+        <div class="item-cont food-item-009-content">
+          <div class="item-cont-icon" id="food009Item0Icon"></div>
+          <div class="item-cont-label" id="collected009Food">0</div>
+        </div>
+        <div class="item-cont food-item-010-content">
+          <div class="item-cont-icon" id="food010Item0Icon"></div>
+          <div class="item-cont-label" id="collected010Food">0</div>
+        </div>
+        <div class="item-cont food-item-011-content">
+          <div class="item-cont-icon" id="food011Item0Icon"></div>
+          <div class="item-cont-label" id="collected011Food">0</div>
+        </div>
+        <div class="item-cont food-item-012-content">
+          <div class="item-cont-icon" id="food012Item0Icon"></div>
+          <div class="item-cont-label" id="collected012Food">0</div>
+        </div>
+        <div class="item-cont food-item-013-content">
+          <div class="item-cont-icon" id="food013Item0Icon"></div>
+          <div class="item-cont-label" id="collected013Food">0</div>
+        </div>
+        <div class="item-cont food-item-014-content">
+          <div class="item-cont-icon" id="food014Item0Icon"></div>
+          <div class="item-cont-label" id="collected014Food">0</div>
+        </div>
+        <div class="item-cont food-item-015-content">
+          <div class="item-cont-icon" id="food015Item0Icon"></div>
+          <div class="item-cont-label" id="collected015Food">0</div>
+        </div>
+        <div class="item-cont food-item-016-content">
+          <div class="item-cont-icon" id="food016Item0Icon"></div>
+          <div class="item-cont-label" id="collected016Food">0</div>
+        </div>
+        <div class="item-cont food-item-017-content">
+          <div class="item-cont-icon" id="food017Item0Icon"></div>
+          <div class="item-cont-label" id="collected017Food">0</div>
+        </div>
+        <div class="item-cont food-item-018-content">
+          <div class="item-cont-icon" id="food018Item0Icon"></div>
+          <div class="item-cont-label" id="collected018Food">0</div>
+        </div>
+        <div class="item-cont food-item-019-content">
+          <div class="item-cont-icon" id="food019Item0Icon"></div>
+          <div class="item-cont-label" id="collected019Food">0</div>
+        </div>
+        <div class="item-cont food-item-020-content">
+          <div class="item-cont-icon" id="food020Item0Icon"></div>
+          <div class="item-cont-label" id="collected020Food">0</div>
+        </div>
+        <div class="item-cont food-item-021-content">
+          <div class="item-cont-icon" id="food021Item0Icon"></div>
+          <div class="item-cont-label" id="collected021Food">0</div>
+        </div>
+        <div class="item-cont food-item-022-content">
+          <div class="item-cont-icon" id="food022Item0Icon"></div>
+          <div class="item-cont-label" id="collected022Food">0</div>
+        </div>
+        <div class="item-cont food-item-023-content">
+          <div class="item-cont-icon" id="food023Item0Icon"></div>
+          <div class="item-cont-label" id="collected023Food">0</div>
+        </div>
+        <div class="item-cont food-item-024-content">
+          <div class="item-cont-icon" id="food024Item0Icon"></div>
+          <div class="item-cont-label" id="collected024Food">0</div>
+        </div>
+        <div class="item-cont food-item-025-content">
+          <div class="item-cont-icon" id="food025Item0Icon"></div>
+          <div class="item-cont-label" id="collected025Food">0</div>
+        </div>
+        <div class="item-cont food-item-026-content">
+          <div class="item-cont-icon" id="food026Item0Icon"></div>
+          <div class="item-cont-label" id="collected026Food">0</div>
+        </div>
+        <div class="item-cont food-item-027-content">
+          <div class="item-cont-icon" id="food027Item0Icon"></div>
+          <div class="item-cont-label" id="collected027Food">0</div>
+        </div>
+        <div class="item-cont food-item-028-content">
+          <div class="item-cont-icon" id="food028Item0Icon"></div>
+          <div class="item-cont-label" id="collected028Food">0</div>
+        </div>
+        <div class="item-cont food-item-029-content">
+          <div class="item-cont-icon" id="food029Item0Icon"></div>
+          <div class="item-cont-label" id="collected029Food">0</div>
+        </div>
+        <div class="item-cont food-item-030-content">
+          <div class="item-cont-icon" id="food030Item0Icon"></div>
+          <div class="item-cont-label" id="collected030Food">0</div>
+        </div>
+        <div class="item-cont food-item-031-content">
+          <div class="item-cont-icon" id="food031Item0Icon"></div>
+          <div class="item-cont-label" id="collected031Food">0</div>
+        </div>
+        <div class="item-cont food-item-032-content">
+          <div class="item-cont-icon" id="food032Item0Icon"></div>
+          <div class="item-cont-label" id="collected032Food">0</div>
+        </div>
+        <div class="item-cont food-item-033-content">
+          <div class="item-cont-icon" id="food033Item0Icon"></div>
+          <div class="item-cont-label" id="collected033Food">0</div>
+        </div>
+        <div class="item-cont food-item-034-content">
+          <div class="item-cont-icon" id="food034Item0Icon"></div>
+          <div class="item-cont-label" id="collected034Food">0</div>
+        </div>
+        <div class="item-cont food-item-035-content">
+          <div class="item-cont-icon" id="food035Item0Icon"></div>
+          <div class="item-cont-label" id="collected035Food">0</div>
+        </div>
+        <div class="item-cont food-item-036-content">
+          <div class="item-cont-icon" id="food036Item0Icon"></div>
+          <div class="item-cont-label" id="collected036Food">0</div>
+        </div>
+        <div class="item-cont food-item-037-content">
+          <div class="item-cont-icon" id="food037Item0Icon"></div>
+          <div class="item-cont-label" id="collected037Food">0</div>
+        </div>
+        <div class="item-cont food-item-038-content">
+          <div class="item-cont-icon" id="food038Item0Icon"></div>
+          <div class="item-cont-label" id="collected038Food">0</div>
+        </div>
+        <div class="item-cont food-item-039-content">
+          <div class="item-cont-icon" id="food039Item0Icon"></div>
+          <div class="item-cont-label" id="collected039Food">0</div>
+        </div>
+        <div class="item-cont food-item-040-content">
+          <div class="item-cont-icon" id="food040Item0Icon"></div>
+          <div class="item-cont-label" id="collected040Food">0</div>
+        </div>
+        <div class="item-cont food-item-041-content">
+          <div class="item-cont-icon" id="food041Item0Icon"></div>
+          <div class="item-cont-label" id="collected041Food">0</div>
+        </div>
+        <div class="item-cont food-item-042-content">
+          <div class="item-cont-icon" id="food042Item0Icon"></div>
+          <div class="item-cont-label" id="collected042Food">0</div>
+        </div>
+        <div class="item-cont food-item-043-content">
+          <div class="item-cont-icon" id="food043Item0Icon"></div>
+          <div class="item-cont-label" id="collected043Food">0</div>
+        </div>
+        <div class="item-cont food-item-044-content">
+          <div class="item-cont-icon" id="food044Item0Icon"></div>
+          <div class="item-cont-label" id="collected044Food">0</div>
+        </div>
+        <div class="item-cont food-item-045-content">
+          <div class="item-cont-icon" id="food045Item0Icon"></div>
+          <div class="item-cont-label" id="collected045Food">0</div>
+        </div>
+        <div class="item-cont food-item-046-content">
+          <div class="item-cont-icon" id="food046Item0Icon"></div>
+          <div class="item-cont-label" id="collected046Food">0</div>
+        </div>
+        <div class="item-cont food-item-047-content">
+          <div class="item-cont-icon" id="food047Item0Icon"></div>
+          <div class="item-cont-label" id="collected047Food">0</div>
+        </div>
+        <div class="item-cont food-item-048-content">
+          <div class="item-cont-icon" id="food048Item0Icon"></div>
+          <div class="item-cont-label" id="collected048Food">0</div>
+        </div>
+        <div class="item-cont food-item-049-content">
+          <div class="item-cont-icon" id="food049Item0Icon"></div>
+          <div class="item-cont-label" id="collected049Food">0</div>
+        </div>
+        <div class="item-cont food-item-050-content">
+          <div class="item-cont-icon" id="food050Item0Icon"></div>
+          <div class="item-cont-label" id="collected050Food">0</div>
+        </div>
+        <div class="item-cont food-item-051-content">
+          <div class="item-cont-icon" id="food051Item0Icon"></div>
+          <div class="item-cont-label" id="collected051Food">0</div>
+        </div>
+        <div class="item-cont food-item-052-content">
+          <div class="item-cont-icon" id="food052Item0Icon"></div>
+          <div class="item-cont-label" id="collected052Food">0</div>
+        </div>
+        <div class="item-cont food-item-053-content">
+          <div class="item-cont-icon" id="food053Item0Icon"></div>
+          <div class="item-cont-label" id="collected053Food">0</div>
+        </div>
+        <div class="item-cont food-item-054-content">
+          <div class="item-cont-icon" id="food054Item0Icon"></div>
+          <div class="item-cont-label" id="collected054Food">0</div>
+        </div>
+        <div class="item-cont food-item-055-content">
+          <div class="item-cont-icon" id="food055Item0Icon"></div>
+          <div class="item-cont-label" id="collected055Food">0</div>
+        </div>
+        <div class="item-cont food-item-056-content">
+          <div class="item-cont-icon" id="food056Item0Icon"></div>
+          <div class="item-cont-label" id="collected056Food">0</div>
+        </div>
+        <div class="item-cont food-item-057-content">
+          <div class="item-cont-icon" id="food057Item0Icon"></div>
+          <div class="item-cont-label" id="collected057Food">0</div>
+        </div>
+        <div class="item-cont food-item-058-content">
+          <div class="item-cont-icon" id="food058Item0Icon"></div>
+          <div class="item-cont-label" id="collected058Food">0</div>
+        </div>
+        <div class="item-cont food-item-059-content">
+          <div class="item-cont-icon" id="food059Item0Icon"></div>
+          <div class="item-cont-label" id="collected059Food">0</div>
+        </div>
+        <div class="item-cont food-item-060-content">
+          <div class="item-cont-icon" id="food060Item0Icon"></div>
+          <div class="item-cont-label" id="collected060Food">0</div>
+        </div>
+        <div class="item-cont food-item-061-content">
+          <div class="item-cont-icon" id="food061Item0Icon"></div>
+          <div class="item-cont-label" id="collected061Food">0</div>
+        </div>
+        <div class="item-cont food-item-062-content">
+          <div class="item-cont-icon" id="food062Item0Icon"></div>
+          <div class="item-cont-label" id="collected062Food">0</div>
+        </div>
+        <div class="item-cont food-item-063-content">
+          <div class="item-cont-icon" id="food063Item0Icon"></div>
+          <div class="item-cont-label" id="collected063Food">0</div>
+        </div>
+        <div class="item-cont food-item-064-content">
+          <div class="item-cont-icon" id="food064Item0Icon"></div>
+          <div class="item-cont-label" id="collected064Food">0</div>
+        </div>
+        <div class="item-cont food-item-065-content">
+          <div class="item-cont-icon" id="food065Item0Icon"></div>
+          <div class="item-cont-label" id="collected065Food">0</div>
+        </div>
+        <div class="item-cont food-item-066-content">
+          <div class="item-cont-icon" id="food066Item0Icon"></div>
+          <div class="item-cont-label" id="collected066Food">0</div>
+        </div>
+        <div class="item-cont food-item-067-content">
+          <div class="item-cont-icon" id="food067Item0Icon"></div>
+          <div class="item-cont-label" id="collected067Food">0</div>
+        </div>
+        <div class="item-cont food-item-068-content">
+          <div class="item-cont-icon" id="food068Item0Icon"></div>
+          <div class="item-cont-label" id="collected068Food">0</div>
+        </div>
+        <div class="item-cont food-item-069-content">
+          <div class="item-cont-icon" id="food069Item0Icon"></div>
+          <div class="item-cont-label" id="collected069Food">0</div>
+        </div>
+        <div class="item-cont food-item-070-content">
+          <div class="item-cont-icon" id="food070Item0Icon"></div>
+          <div class="item-cont-label" id="collected070Food">0</div>
+        </div>
+        <div class="item-cont food-item-071-content">
+          <div class="item-cont-icon" id="food071Item0Icon"></div>
+          <div class="item-cont-label" id="collected071Food">0</div>
+        </div>
+        <div class="item-cont food-item-072-content">
+          <div class="item-cont-icon" id="food072Item0Icon"></div>
+          <div class="item-cont-label" id="collected072Food">0</div>
+        </div>
+        <div class="item-cont food-item-073-content">
+          <div class="item-cont-icon" id="food073Item0Icon"></div>
+          <div class="item-cont-label" id="collected073Food">0</div>
+        </div>
+        <div class="item-cont food-item-074-content">
+          <div class="item-cont-icon" id="food074Item0Icon"></div>
+          <div class="item-cont-label" id="collected074Food">0</div>
+        </div>
+        <div class="item-cont food-item-075-content">
+          <div class="item-cont-icon" id="food075Item0Icon"></div>
+          <div class="item-cont-label" id="collected075Food">0</div>
+        </div>
+        <div class="item-cont food-item-076-content">
+          <div class="item-cont-icon" id="food076Item0Icon"></div>
+          <div class="item-cont-label" id="collected076Food">0</div>
+        </div>
+        <div class="item-cont food-item-077-content">
+          <div class="item-cont-icon" id="food077Item0Icon"></div>
+          <div class="item-cont-label" id="collected077Food">0</div>
         </div>
       </div>
     </div>
@@ -270,8 +900,10 @@
   <script src="index_data/scripts/download_links.js"></script>
   <script src="index_data/scripts/links.js"></script>
   <script src="index_data/scripts/sites_links.js"></script>
+  <script src="index_data/scripts/plugins/snake_mecha_collector.js"></script>
   <script src="index_data/scripts/more_info.js"></script>
   <script src="index_data/scripts/window_context.js"></script>
+  <script src="index_data/scripts/window_dumload.js"></script>
   <script src="index_data/scripts/window_load.js"></script>
 </body>
 </html>
