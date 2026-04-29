@@ -103,7 +103,6 @@ function showInfoSmc() {
      content.style.direction = "rtl";
      content.style.textAlign = "right";
   };
-  prog.style.display = "block";
 };
 function showInfoEc() {
   const en = [
@@ -214,7 +213,6 @@ function showInfoEc() {
      content.style.direction = "rtl";
      content.style.textAlign = "right";
   };
-  prog.style.display = "block";
 };
 function showInfoSp() {
   const en = [
@@ -288,7 +286,6 @@ function showInfoSp() {
      content.style.direction = "rtl";
      content.style.textAlign = "right";
   };
-  prog.style.display = "block";
 };
 function showInfoSpdc() {
   const en = [
@@ -356,5 +353,4 @@ function showInfoSpdc() {
      content.style.direction = "rtl";
      content.style.textAlign = "right";
   };
-  prog.style.display = "block";
 }

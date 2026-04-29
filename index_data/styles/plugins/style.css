@@ -1,0 +1,399 @@
+:root {
+  --meaw-token: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/meaw_token.png');
+  --gold: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/gold.png');
+  --alpha-coin: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/alpha_coin.png');
+  --crystal: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/crystal.png');
+  --ticket: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/ticket.png');
+  --ticket-cheomatic: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/ticket_chromatic.png');
+  --ticket-premium: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/ticket_premium.png');
+  --ticket-premium-2: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/ticket_premium_2.png');
+  --virtual-token: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/virtual_token.png');
+  --food-0-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_000.png');
+  --food-1-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_001.png');
+  --food-2-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_002.png');
+  --food-3-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_003.png');
+  --food-4-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_004.png');
+  --food-5-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_005.png');
+  --food-6-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_006.png');
+  --food-7-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_007.png');
+  --food-8-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_008.png');
+  --food-9-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_009.png');
+  --food-10-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_010.png');
+  --food-11-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_011.png');
+  --food-12-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_012.png');
+  --food-13-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_013.png');
+  --food-14-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_014.png');
+  --food-15-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_015.png');
+  --food-16-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_016.png');
+  --food-17-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_017.png');
+  --food-18-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_018.png');
+  --food-19-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_019.png');
+  --food-20-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_020.png');
+  --food-21-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_021.png');
+  --food-22-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_022.png');
+  --food-23-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_023.png');
+  --food-24-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_024.png');
+  --food-25-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_025.png');
+  --food-26-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_026.png');
+  --food-27-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_027.png');
+  --food-28-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_028.png');
+  --food-29-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_029.png');
+  --food-30-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_030.png');
+  --food-31-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_031.png');
+  --food-32-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_032.png');
+  --food-33-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_033.png');
+  --food-34-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_034.png');
+  --food-35-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_035.png');
+  --food-36-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_036.png');
+  --food-37-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_037.png');
+  --food-38-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_038.png');
+  --food-39-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_039.png');
+  --food-40-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_040.png');
+  --food-41-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_041.png');
+  --food-42-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_042.png');
+  --food-43-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_043.png');
+  --food-44-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_044.png');
+  --food-45-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_045.png');
+  --food-46-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_046.png');
+  --food-47-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_047.png');
+  --food-48-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_048.png');
+  --food-49-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_049.png');
+  --food-50-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_050.png');
+  --food-51-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_051.png');
+  --food-52-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_052.png');
+  --food-53-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_053.png');
+  --food-54-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_054.png');
+  --food-55-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_055.png');
+  --food-56-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_056.png');
+  --food-57-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_057.png');
+  --food-58-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_058.png');
+  --food-59-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_059.png');
+  --food-60-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_060.png');
+  --food-61-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_061.png');
+  --food-62-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_062.png');
+  --food-63-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_063.png');
+  --food-64-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_064.png');
+  --food-65-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_065.png');
+  --food-66-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_066.png');
+  --food-67-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_067.png');
+  --food-68-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_068.png');
+  --food-69-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_069.png');
+  --food-70-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_070.png');
+  --food-71-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_071.png');
+  --food-72-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_072.png');
+  --food-73-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_073.png');
+  --food-74-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_074.png');
+  --food-75-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_075.png');
+  --food-76-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_076.png');
+  --food-77-image: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/foods/img_0_077.png');
+  --icons: url('https://dragonhtmil.github.io/mnts.smc.org/index_data/textures/gui/icon_bg.png');
+}
+.in-data-modal {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: auto;
+  padding: 64px 0 5px 0;
+}
+#smcItem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#proger {
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#proger div {
+  text-align: center;
+  border: solid 2px var(--border);
+  padding: 10px;
+  margin: 5px;
+}
+#smcPilot,
+#smcMecha {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+}
+#meowIcon {
+  background-image: var(--meaw-token);
+}
+#goldIcon {
+  background-image: var(--gold);
+}
+#alphacoinIcon {
+  background-image: var(--alpha-coin);
+}
+#crystalIcon {
+  background-image: var(--crystal);
+}
+#virtualTokenIcon {
+  background-image: var(--virtual-token);
+}
+#food000Item0Icon {
+  background-image: var(--food-0-image);
+}
+#food001Item0Icon {
+  background-image: var(--food-1-image);
+}
+#food002Item0Icon {
+  background-image: var(--food-2-image);
+}
+#food003Item0Icon {
+  background-image: var(--food-3-image);
+}
+#food004Item0Icon {
+  background-image: var(--food-4-image);
+}
+#food005Item0Icon {
+  background-image: var(--food-5-image);
+}
+#food006Item0Icon {
+  background-image: var(--food-6-image);
+}
+#food007Item0Icon {
+  background-image: var(--food-7-image);
+}
+#food008Item0Icon {
+  background-image: var(--food-8-image);
+}
+#food009Item0Icon {
+  background-image: var(--food-9-image);
+}
+#food010Item0Icon {
+  background-image: var(--food-10-image);
+}
+#food011Item0Icon {
+  background-image: var(--food-11-image);
+}
+#food012Item0Icon {
+  background-image: var(--food-12-image);
+}
+#food013Item0Icon {
+  background-image: var(--food-13-image);
+}
+#food014Item0Icon {
+  background-image: var(--food-14-image);
+}
+#food015Item0Icon {
+  background-image: var(--food-15-image);
+}
+#food016Item0Icon {
+  background-image: var(--food-16-image);
+}
+#food017Item0Icon {
+  background-image: var(--food-17-image);
+}
+#food018Item0Icon {
+  background-image: var(--food-18-image);
+}
+#food019Item0Icon {
+  background-image: var(--food-19-image);
+}
+#food020Item0Icon {
+  background-image: var(--food-20-image);
+}
+#food021Item0Icon {
+  background-image: var(--food-21-image);
+}
+#food022Item0Icon {
+  background-image: var(--food-22-image);
+}
+#food023Item0Icon {
+  background-image: var(--food-23-image);
+}
+#food024Item0Icon {
+  background-image: var(--food-24-image);
+}
+#food025Item0Icon {
+  background-image: var(--food-25-image);
+}
+#food026Item0Icon {
+  background-image: var(--food-26-image);
+}
+#food027Item0Icon {
+  background-image: var(--food-27-image);
+}
+#food028Item0Icon {
+  background-image: var(--food-28-image);
+}
+#food029Item0Icon {
+  background-image: var(--food-29-image);
+}
+#food030Item0Icon {
+  background-image: var(--food-30-image);
+}
+#food031Item0Icon {
+  background-image: var(--food-31-image);
+}
+#food032Item0Icon {
+  background-image: var(--food-32-image);
+}
+#food033Item0Icon {
+  background-image: var(--food-33-image);
+}
+#food034Item0Icon {
+  background-image: var(--food-34-image);
+}
+#food035Item0Icon {
+  background-image: var(--food-35-image);
+}
+#food036Item0Icon {
+  background-image: var(--food-36-image);
+}
+#food037Item0Icon {
+  background-image: var(--food-37-image);
+}
+#food038Item0Icon {
+  background-image: var(--food-38-image);
+}
+#food039Item0Icon {
+  background-image: var(--food-39-image);
+}
+#food040Item0Icon {
+  background-image: var(--food-40-image);
+}
+#food041Item0Icon {
+  background-image: var(--food-41-image);
+}
+#food042Item0Icon {
+  background-image: var(--food-42-image);
+}
+#food043Item0Icon {
+  background-image: var(--food-43-image);
+}
+#food044Item0Icon {
+  background-image: var(--food-44-image);
+}
+#food045Item0Icon {
+  background-image: var(--food-45-image);
+}
+#food046Item0Icon {
+  background-image: var(--food-46-image);
+}
+#food047Item0Icon {
+  background-image: var(--food-47-image);
+}
+#food048Item0Icon {
+  background-image: var(--food-48-image);
+}
+#food049Item0Icon {
+  background-image: var(--food-49-image);
+}
+#food050Item0Icon {
+  background-image: var(--food-50-image);
+}
+#food051Item0Icon {
+  background-image: var(--food-51-image);
+}
+#food052Item0Icon {
+  background-image: var(--food-52-image);
+}
+#food053Item0Icon {
+  background-image: var(--food-53-image);
+}
+#food054Item0Icon {
+  background-image: var(--food-54-image);
+}
+#food055Item0Icon {
+  background-image: var(--food-55-image);
+}
+#food056Item0Icon {
+  background-image: var(--food-56-image);
+}
+#food057Item0Icon {
+  background-image: var(--food-57-image);
+}
+#food058Item0Icon {
+  background-image: var(--food-58-image);
+}
+#food059Item0Icon {
+  background-image: var(--food-59-image);
+}
+#food060Item0Icon {
+  background-image: var(--food-60-image);
+}
+#food061Item0Icon {
+  background-image: var(--food-61-image);
+}
+#food062Item0Icon {
+  background-image: var(--food-62-image);
+}
+#food063Item0Icon {
+  background-image: var(--food-63-image);
+}
+#food064Item0Icon {
+  background-image: var(--food-64-image);
+}
+#food065Item0Icon {
+  background-image: var(--food-65-image);
+}
+#food066Item0Icon {
+  background-image: var(--food-66-image);
+}
+#food067Item0Icon {
+  background-image: var(--food-67-image);
+}
+#food068Item0Icon {
+  background-image: var(--food-68-image);
+}
+#food069Item0Icon {
+  background-image: var(--food-69-image);
+}
+#food070Item0Icon {
+  background-image: var(--food-70-image);
+}
+#food071Item0Icon {
+  background-image: var(--food-71-image);
+}
+#food072Item0Icon {
+  background-image: var(--food-72-image);
+}
+#food073Item0Icon {
+  background-image: var(--food-73-image);
+}
+#food074Item0Icon {
+  background-image: var(--food-74-image);
+}
+#food075Item0Icon {
+  background-image: var(--food-75-image);
+}
+#food076Item0Icon {
+  background-image: var(--food-76-image);
+}
+#food077Item0Icon {
+  background-image: var(--food-77-image);
+}
+.char-cont {
+  border: solid 2px var(--border);
+  padding: 5px;
+}
+.item-cont {
+  width: 62px;
+  height: 62px;
+  position: relative;
+  float: left;
+  background-image: var(--icons);
+  background-size: 100% auto;
+  background-position: center center;
+  margin: 1px;
+}
+.item-cont-icon {
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-position: center center;
+  position: relative;
+}
+.item-cont-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 15px;
+  text-align: right;
+  color: black;
+}

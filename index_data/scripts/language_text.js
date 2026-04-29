@@ -40,6 +40,14 @@ function loadTexts() {
   var a038 = document.getElementById("ecContent");
   var a039 = document.getElementById("hsrS24uName");
   var a040 = document.getElementById("hsrS24uContent");
+  var a041 = document.getElementById("tpName");
+  var a042 = document.getElementById("tpContent");
+  var a043 = document.getElementById("mcIlqName");
+  var a044 = document.getElementById("mcIlqContent");
+  var a045 = document.getElementById("mcIlpName");
+  var a046 = document.getElementById("mcIlpContent");
+  var a047 = document.getElementById("foName");
+  var a048 = document.getElementById("foContent");
   /////////////////////////////////Sets/////////////////////////////////
   const a000_set = document.getElementsByClassName("websLang");
   const a001_set = document.getElementsByClassName("mcLang");
@@ -50,6 +58,7 @@ function loadTexts() {
   const a006_set = document.getElementsByClassName("info-btn");
   const a007_set = document.getElementsByClassName("aiAppsLang");
   const a008_set = document.getElementsByClassName("down-btn-apk");
+  const a009_set = document.getElementsByClassName("data-btn");
 
   if(localStorage.getItem("lang") === "en") {
     a001.innerHTML = "Settings";
@@ -96,10 +105,10 @@ function loadTexts() {
     a030.innerHTML = "This texture is default look of Minecraft (25w31a) also models of entities.";
     a030.innerHTML += "<br>";
     a030.innerHTML += "<strong>Required game version: 1.20.1 and <a href='http://adfoc.us/serve/sitelinks/?id=475250&url=http://optifine.net/adloadx?f=OptiFine_1.20.1_HD_U_I6.jar&x=7239'>OptiFine</a>.</strong>";
-    a031.innerHTML = "Minecraft 1.21.9";
+    a031.innerHTML = "Minecraft + HD";
     a032.innerHTML = "This theme is default look of Minecraft for Block Story game and with HD version.";
     a032.innerHTML += "<br>";
-    a032.innerHTML += "<strong>Required game version: 13.3.4.2-13.3.3.</strong>";
+    a032.innerHTML += "<strong>Required game version: 13.4.0.</strong>";
     a033.innerHTML = "SMC Pack DC";
     a034.innerHTML = "Simple library of SMC Wallpapers, Avatars and Stickers for Discord or something else.";
     a035.innerHTML = "Want Hots";
@@ -114,6 +123,22 @@ function loadTexts() {
     a040.innerHTML = "This texture change the model for Eyephone in mod <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a> to S24 Ultra with skin HSR Trailblazer.";
     a040.innerHTML += "<br>";
     a040.innerHTML += "<strong>Required game version: 1.20.1 and mod <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>";
+    a041.innerHTML = "Teleporters";
+    a042.innerHTML = "This mod adds Teleporters for teleporting from one place to another in Minecraft.";
+    a042.innerHTML += "<br>";
+    a042.innerHTML += "<strong>Required game version: Forge 1.20.1.</strong>";
+    a043.innerHTML = "Minecraft is Latest (Quark)";
+    a044.innerHTML = "This texture is default look of Quark with mod <a href='https://www.curseforge.com/minecraft/mc-mods/quark'>(Forge, 1.20.1) Quark</a> also models of entities.";
+    a044.innerHTML += "<br>";
+    a044.innerHTML += "<strong>Required game version: 1.20.1 and mod <a href='https://www.curseforge.com/minecraft/mc-mods/quark'>(Forge, 1.20.1) Quark</a>.</strong>";
+    a045.innerHTML = "Minecraft is Latest (Panorama Bedrock Edition)";
+    a046.innerHTML = "This texture is default look of Panorama Bedrock Edition PE.";
+    a046.innerHTML += "<br>";
+    a046.innerHTML += "<strong>Required game version: 1.20.1.</strong>";
+    a047.innerHTML = "Fantasy Ores [GOM]";
+    a048.innerHTML = "This texture is add textures models from Fantasy Ores for mod <a href='index_data/documents/mods/AV_Gems_of_Minecraft_1.20.1.jar'>Gems of Minecraft</a>.";
+    a048.innerHTML += "<br>";
+    a048.innerHTML += "<strong>Required game version: 1.20.1 and mod <a href='index_data/documents/mods/AV_Gems_of_Minecraft_1.20.1.jar'>Gems of Minecraft</a>.</strong>";
     /////////////////////////////////Sets/////////////////////////////////
     for (let i = 0; i < a000_set.length; i++) {
       a000_set[i].textContent = "Websites";
@@ -141,6 +166,9 @@ function loadTexts() {
     };
     for (let i = 0; i < a008_set.length; i++) {
       a008_set[i].textContent = "Download (APK)";
+    };
+    for (let i = 0; i < a009_set.length; i++) {
+      a009_set[i].textContent = "View Data";
     };
   }else
   if(localStorage.getItem("lang") === "ru") {
@@ -188,10 +216,10 @@ function loadTexts() {
     a030.innerHTML = "Эта текстура — стандартный вид Minecraft (25w31a), а также модели сущностей.";
     a030.innerHTML += "<br>";
     a030.innerHTML += "<strong>Требуемая версия игры: 1.20.1 и <a href='http://adfoc.us/serve/sitelinks/?id=475250&url=http://optifine.net/adloadx?f=OptiFine_1.20.1_HD_U_I6.jar&x=7239'>OptiFine</a>.</strong>";
-    a031.innerHTML = "Minecraft 1.21.9";
+    a031.innerHTML = "Minecraft + HD";
     a032.innerHTML = "Эта тема является стандартным оформлением Minecraft для игры Block Story и имеет HD-версию..";
     a032.innerHTML += "<br>";
-    a032.innerHTML += "<strong>Требуемая версия игры: 13.3.4.2-13.3.3.</strong>";
+    a032.innerHTML += "<strong>Требуемая версия игры: 13.4.0.</strong>";
     a033.innerHTML = "SMC Pack DC";
     a034.innerHTML = "Простая библиотека обоев, аватаров и стикеров SMC для Discord или чего-либо еще.";
     a035.innerHTML = "Хочу горячее";
@@ -206,6 +234,22 @@ function loadTexts() {
     a040.innerHTML = "Эта текстура меняет модель для Eyephone в моде <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a> в S24 Ultra с обложкой HSR Trailblazer.";
     a040.innerHTML += "<br>";
     a040.innerHTML += "<strong>Требуемая версия игры: 1.20.1 и мод <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>";
+    a041.innerHTML = "Телепорты";
+    a042.innerHTML = "Этот мод добавляет Телепорты для телепортации из одного места в другое в Minecraft.";
+    a042.innerHTML += "<br>";
+    a042.innerHTML += "<strong>Требуемая версия игры: Forge 1.20.1.</strong>";
+    a043.innerHTML = "Minecraft is Latest (Quark)";
+    a044.innerHTML = "Эта текстура — стандартный вид Quark с модом <a href='https://www.curseforge.com/minecraft/mc-mods/quark'>(Forge, 1.20.1) Quark</a>, а также модели сущностей.";
+    a044.innerHTML += "<br>";
+    a044.innerHTML += "<strong>Требуемая версия игры: 1.20.1 и мод <a href='https://www.curseforge.com/minecraft/mc-mods/quark'>(Forge, 1.20.1) Quark</a>.</strong>";
+    a045.innerHTML = "Minecraft is Latest (Panorama Bedrock Edition)";
+    a046.innerHTML = "Эта текстура — стандартный вид Panorama Bedrock Edition PE.";
+    a046.innerHTML += "<br>";
+    a046.innerHTML += "<strong>Требуемая версия игры: 1.20.1.</strong>";
+    a047.innerHTML = "Фантастические руды [GOM]";
+    a048.innerHTML = "Эта текстура добавляет текстуры моделей из Fantasy Ores для мода <a href='index_data/documents/mods/AV_Gems_of_Minecraft_1.20.1.jar'>Gems of Minecraft</a>.";
+    a048.innerHTML += "<br>";
+    a048.innerHTML += "<strong>Требуемая версия игры: 1.20.1 и мод <a href='index_data/documents/mods/AV_Gems_of_Minecraft_1.20.1.jar'>Gems of Minecraft</a>.</strong>";
     /////////////////////////////////Sets/////////////////////////////////
     for (let i = 0; i < a000_set.length; i++) {
       a000_set[i].textContent = "Веб-сайты";
@@ -234,6 +278,9 @@ function loadTexts() {
     for (let i = 0; i < a008_set.length; i++) {
       a008_set[i].textContent = "Загрузить (APK)";
     };
+    for (let i = 0; i < a009_set.length; i++) {
+      a009_set[i].textContent = "Просмотр данных";
+    }
   }else
   if(localStorage.getItem("lang") === "he") {
     a001.innerHTML = "הגדרות";
@@ -307,10 +354,10 @@ function loadTexts() {
     a030.innerHTML += "<strong>נדרשת גרסת משחק: 1.20.1 ו<a href='http://adfoc.us/serve/sitelinks/?id=475250&url=http://optifine.net/adloadx?f=OptiFine_1.20.1_HD_U_I6.jar&x=7239'>OptiFine</a>.</strong>";
      a030.style.direction = "rtl";
      a030.style.textAlign = "right";
-    a031.innerHTML = "Minecraft 1.21.9";
+    a031.innerHTML = "Minecraft + HD";
     a032.innerHTML = "ערכת נושא זו היא מראה ברירת המחדל של Minecraft עבור המשחק Block Story ועם גרסת HD.";
     a032.innerHTML += "<br>";
-    a032.innerHTML += "<strong>נדרשת גרסת משחק: 13.3.4.2-13.3.3.</strong>";
+    a032.innerHTML += "<strong>נדרשת גרסת משחק: 13.4.0.</strong>";
      a032.style.direction = "rtl";
      a032.style.textAlign = "right";
     a033.innerHTML = "SMC Pack DC";
@@ -335,6 +382,30 @@ function loadTexts() {
     a040.innerHTML += "<strong>נדרשת גרסת משחק: 1.20.1 ומוד <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>";
      a040.style.direction = "rtl";
      a040.style.textAlign = "right";
+    a041.innerHTML = "טלפורטורים";
+    a042.innerHTML = "מוד זה מוסיף טלפורטורים לטלפורטציה ממקום למקום במיינקראפט.";
+    a042.innerHTML += "<br>";
+    a042.innerHTML += "<strong>נדרשת גרסת משחק: Forge 1.20.1.</strong>";
+     a042.style.direction = "rtl";
+     a042.style.textAlign = "right";
+    a043.innerHTML = "Minecraft is Latest (Quark)";
+    a044.innerHTML = "טקסטורה זו היא מראה ברירת המחדל של Quark עם מוד <a href='https://www.curseforge.com/minecraft/mc-mods/quark'>(Forge, 1.20.1) Quark</a> וגם מודלים של ישויות.";
+    a044.innerHTML += "<br>";
+    a044.innerHTML += "<strong>נדרשת גרסת משחק: 1.20.1 ומוד <a href='https://www.curseforge.com/minecraft/mc-mods/quark'>(Forge, 1.20.1) Quark</a>.</strong>";
+     a044.style.direction = "rtl";
+     a044.style.textAlign = "right";
+    a045.innerHTML = "Minecraft is Latest (Panorama Bedrock Edition)";
+    a046.innerHTML = "טקסטורה זו היא מראה ברירת המחדל של Panorama Bedrock Edition PE.";
+    a046.innerHTML += "<br>";
+    a046.innerHTML += "<strong>נדרשת גרסת משחק: 1.20.1.</strong>";
+     a046.style.direction = "rtl";
+     a046.style.textAlign = "right";
+    a047.innerHTML = "פנטזיה Ores [GOM]";
+    a048.innerHTML = "טקסטורה זו מוסיפה טקסטורות מודלים מFantasy Ores עבור מוד <a href='index_data/documents/mods/AV_Gems_of_Minecraft_1.20.1.jar'>Gems of Minecraft</a>.";
+    a048.innerHTML += "<br>";
+    a048.innerHTML += "<strong>נדרשת גרסת משחק: 1.20.1 ומוד <a href='index_data/documents/mods/AV_Gems_of_Minecraft_1.20.1.jar'>Gems of Minecraft</a>.</strong>";
+     a048.style.direction = "rtl";
+     a048.style.textAlign = "right";
     /////////////////////////////////Sets/////////////////////////////////
     for (let i = 0; i < a000_set.length; i++) {
       a000_set[i].textContent = "אתרי אינטרנט";
@@ -364,6 +435,9 @@ function loadTexts() {
     };
     for (let i = 0; i < a008_set.length; i++) {
       a008_set[i].textContent = "הורדה (APK)";
+    };
+    for (let i = 0; i < a009_set.length; i++) {
+      a009_set[i].textContent = "צפייה בנתונים";
     };
   }
   a000.innerHTML = "ArthurVesta";
