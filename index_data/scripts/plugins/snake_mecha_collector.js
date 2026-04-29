@@ -1,6 +1,6 @@
 function loadSmcData() {
-  const player = localStorage.getItem("nickname");
-  const playerData = document.getElementById("smcName");
+  const playerName = localStorage.getItem("nickname");
+  const playerNameData = document.getElementById("smcPlayerName");
   const score = localStorage.getItem("high-score");
   const scoreData = document.getElementById("smcHscore");
   const scoreNum = Number(localStorage.getItem("high-score"));
@@ -193,26 +193,26 @@ function loadSmcData() {
     if(fTitle) fTitle.style.textAlign = "right";
   };
   if(localStorage.getItem("lang") === "en") {
-    if(player === null || player === "") {
-      if(playerData) playerData.innerHTML = "Name:" + "Unnamed";
+    if(playerName === null || playerName === "") {
+      if(playerNameData) playerNameData.innerHTML = "Name: " + "Unnamed";
     }else{
-      if(playerData) playerData.innerHTML = "Name:" + player;
+      if(playerNameData) playerNameData.innerHTML = "Name: " + playerName;
     };
   }else
   if(localStorage.getItem("lang") === "ru") {
-    if(player === null || player === "") {
-      if(playerData) playerData.innerHTML = "Имя:" + "Безымянный";
+    if(playerName === null || playerName === "") {
+      if(playerNameData) playerNameData.innerHTML = "Имя: " + "Безымянный";
     }else{
-      if(playerData) playerData.innerHTML = "Имя:" + player;
+      if(playerNameData) playerNameData.innerHTML = "Имя: " + playerName;
     };
   }else
   if(localStorage.getItem("lang") === "he") {
-    if(player === null || player === "") {
-      if(playerData) playerData.innerHTML = "שם:" + "ללא שם";
-      if(playerData) playerData.style.direction = "rtl";
+    if(playerName === null || playerName === "") {
+      if(playerNameData) playerNameData.innerHTML = "שם: " + "ללא שם";
+      if(playerNameData) playerNameData.style.direction = "rtl";
     }else{
-      if(playerData) playerData.innerHTML = "שם:" + player;
-      if(playerData) playerData.style.direction = "rtl";
+      if(playerNameData) playerNameData.innerHTML = "שם: " + playerName;
+      if(playerNameData) playerNameData.style.direction = "rtl";
     };
   };
   if(localStorage.getItem("lang") === "en") {
