@@ -7,3 +7,6 @@ function linkOpenSp2() {
 function linkOpenSpdc() {
   window.location.href="https://dragonhtmil.github.io/mnts.dc.org/";
 };
+function linkOpenRb() {
+  window.location.href="https://dragonhtmil.github.io/mnts.rbcb.org/";
+};
