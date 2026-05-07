@@ -10,3 +10,6 @@ function linkOpenSpdc() {
 function linkOpenRb() {
   window.location.href="https://dragonhtmil.github.io/mnts.rbcb.org/";
 };
+function linkOpenMc() {
+  window.location.href="https://dragonhtmil.github.io/mnts.memorycards.org/";
+};

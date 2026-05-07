@@ -48,6 +48,8 @@ function loadTexts() {
   var a046 = document.getElementById("mcIlpContent");
   var a047 = document.getElementById("foName");
   var a048 = document.getElementById("foContent");
+  var a049 = document.getElementById("mcName");
+  var a050 = document.getElementById("mcContent");
   /////////////////////////////////Sets/////////////////////////////////
   const a000_set = document.getElementsByClassName("websLang");
   const a001_set = document.getElementsByClassName("mcLang");
@@ -139,6 +141,8 @@ function loadTexts() {
     a048.innerHTML = "This texture is add textures models from Fantasy Ores for mod <a href='index_data/documents/mods/AV_Gems_of_Minecraft_1.20.1.jar'>Gems of Minecraft</a>.";
     a048.innerHTML += "<br>";
     a048.innerHTML += "<strong>Required game version: 1.20.1 and mod <a href='index_data/documents/mods/AV_Gems_of_Minecraft_1.20.1.jar'>Gems of Minecraft</a>.</strong>";
+    a049.innerHTML = "Super Memory Cards";
+    a050.innerHTML = "Classic Memory Cards game with SMC style, but little not same by default, pair pilots with they mecha.";
     /////////////////////////////////Sets/////////////////////////////////
     for (let i = 0; i < a000_set.length; i++) {
       a000_set[i].textContent = "Websites";
@@ -250,6 +254,8 @@ function loadTexts() {
     a048.innerHTML = "Эта текстура добавляет текстуры моделей из Fantasy Ores для мода <a href='index_data/documents/mods/AV_Gems_of_Minecraft_1.20.1.jar'>Gems of Minecraft</a>.";
     a048.innerHTML += "<br>";
     a048.innerHTML += "<strong>Требуемая версия игры: 1.20.1 и мод <a href='index_data/documents/mods/AV_Gems_of_Minecraft_1.20.1.jar'>Gems of Minecraft</a>.</strong>";
+    a049.innerHTML = "Супер карты памяти";
+    a050.innerHTML = "Классическая игра в карты памяти в стиле SMC, но немного отличающаяся от стандартной: пилоты объединяются в пары со своими мехами.";
     /////////////////////////////////Sets/////////////////////////////////
     for (let i = 0; i < a000_set.length; i++) {
       a000_set[i].textContent = "Веб-сайты";
@@ -406,6 +412,12 @@ function loadTexts() {
     a048.innerHTML += "<strong>נדרשת גרסת משחק: 1.20.1 ומוד <a href='index_data/documents/mods/AV_Gems_of_Minecraft_1.20.1.jar'>Gems of Minecraft</a>.</strong>";
      a048.style.direction = "rtl";
      a048.style.textAlign = "right";
+    a049.innerHTML = "סופר כרטיסי זיכרון";
+     a049.style.direction = "rtl";
+     a049.style.textAlign = "right";
+    a050.innerHTML = "משחק כרטיסי זיכרון קלאסי בסגנון SMC, אבל קצת שונה כברירת מחדל, זוג טייסים עם המכה שלהם.";
+     a050.style.direction = "rtl";
+     a050.style.textAlign = "right";
     /////////////////////////////////Sets/////////////////////////////////
     for (let i = 0; i < a000_set.length; i++) {
       a000_set[i].textContent = "אתרי אינטרנט";
