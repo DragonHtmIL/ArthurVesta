@@ -12,4 +12,5 @@ window.addEventListener('load', function() {
     document.getElementById("langSelection").value = "he";
   };
   document.getElementById("webs").click();
+  checkDevice();
 });
