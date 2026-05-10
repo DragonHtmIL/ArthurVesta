@@ -1,6 +1,6 @@
 function checkDevice() {
    if (navigator.userAgent.includes("Mobile")) {
-    document.getElementById("").style.display = "none";
+    document.getElementById("adminacces").style.display = "none";
 }else{
   return;
 };
