@@ -7,3 +7,4 @@ function checkDevice() {
   } else {
     document.getElementById("adminacces").style.display = "flex";
   };
+}
