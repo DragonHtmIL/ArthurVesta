@@ -2,6 +2,7 @@ window.addEventListener('load', function() {
   checkLanguageStorage();
   loadTexts();
   loadIcon();
+  checkDevice();
   if(localStorage.getItem("lang") === "en") {
     document.getElementById("langSelection").value = "en";
   }else
@@ -12,5 +13,4 @@ window.addEventListener('load', function() {
     document.getElementById("langSelection").value = "he";
   };
   document.getElementById("webs").click();
-  checkDevice();
 });
