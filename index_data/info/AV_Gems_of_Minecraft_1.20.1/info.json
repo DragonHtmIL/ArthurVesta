@@ -1,0 +1,34 @@
+{
+  "name_en": "Gems of Minecraft",
+  "name_ru": "Драгоценные камни Майнкрафта",
+  "name_he": "אבני חן של מיינקראפט",
+  "description_en": "Adding more gems to minecraft.",
+  "description_ru": "Добавление больше драгоценных камней в майнкрафт.",
+  "description_he": "הוספת עוד אבני חן למיינקראפט.",
+  "requreds_en": [
+    "Required game version: Forge 1.20.1."
+  ],
+  "requreds_ru": [
+    "Требуемая версия игры: Forge 1.20.1."
+  ],
+  "requreds_he": [
+    "נדרשת גרסת משחק: Forge 1.20.1."
+  ],
+  "image_path_from_main": "index_data/info/AV_Gems_of_Minecraft_1.20.1/",
+  "image_name": "icon.png",
+  "image_class": "card-icon pixel",
+  "image_alt": "Gems of Minecraft",
+  "link": "https://www.curseforge.com/minecraft/mc-mods/gems-of-game",
+  "linker_class": "open-btn",
+  "dir_rtl": [
+    "name_he",
+    "description_he",
+    "requreds_he"
+  ],
+  "align_right": [
+    "description_he",
+    "requreds_he"
+  ],
+  "card_categore": "mcContiner",
+  "card_section": "modsSubTitle"
+}

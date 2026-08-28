@@ -1,0 +1,33 @@
+{
+  "name_en": "SMC Pack DC",
+  "name_ru": "SMC Pack DC",
+  "name_he": "SMC Pack DC",
+  "description_en": "Simple library of SMC Wallpapers, Avatars and Stickers for Discord or something else.",
+  "description_ru": "Простая библиотека обоев, аватаров и стикеров SMC для Discord или чего-либо еще.",
+  "description_he": "ספרייה פשוטה של ​​טפטים, אווטארים ומדבקות של SMC עבור Discord או משהו אחר.",
+  "requreds_en": [
+    null
+  ],
+  "requreds_ru": [
+    null
+  ],
+  "requreds_he": [
+    null
+  ],
+  "image_path_from_main": "index_data/info/mnts.dc.org/",
+  "image_name": "icon.png",
+  "image_class": "card-icon",
+  "image_alt": "SMC Pack DC",
+  "link": "https://dragonhtmil.github.io/mnts.dc.org/",
+  "linker_class": "open-btn",
+  "dir_rtl": [
+    "description_he",
+    "requreds_he"
+  ],
+  "align_right": [
+    "description_he",
+    "requreds_he"
+  ],
+  "card_categore": "websContiner",
+  "card_section": null
+}

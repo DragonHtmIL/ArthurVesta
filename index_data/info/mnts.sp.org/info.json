@@ -1,0 +1,34 @@
+{
+  "name_en": "Storage Player 2",
+  "name_ru": "Проигрыватель Хранилище 2",
+  "name_he": "נגן אכסון 2",
+  "description_en": "View your Images, Videos, Audios and Documents in your device.",
+  "description_ru": "Просмотр изображений, видео, аудио и документов в вашем устройстве.",
+  "description_he": "צפה בתמונות, בסרטונים, בקבצי האודיו ובמסמכים שלך במכשיר שלך.",
+  "requreds_en": [
+    null
+  ],
+  "requreds_ru": [
+    null
+  ],
+  "requreds_he": [
+    null
+  ],
+  "image_path_from_main": "index_data/info/mnts.sp.org/",
+  "image_name": "icon.png",
+  "image_class": "card-icon",
+  "image_alt": "Snake Mecha Collector",
+  "link": "https://dragonhtmil.github.io/mnts.sp.org/",
+  "linker_class": "open-btn",
+  "dir_rtl": [
+    "name_he",
+    "description_he",
+    "requreds_he"
+  ],
+  "align_right": [
+    "description_he",
+    "requreds_he"
+  ],
+  "card_categore": "websContiner",
+  "card_section": null
+}
