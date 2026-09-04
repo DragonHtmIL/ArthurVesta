@@ -1,0 +1,34 @@
+{
+  "name_en": "EyePhone S24 Ultra Titanium Black",
+  "name_ru": "EyePhone S24 Ultra Titanium Black",
+  "name_he": "EyePhone S24 Ultra Titanium Black",
+  "description_en": "Replaces the EyePhone model from EyeMod with a Samsung Galaxy S24 Ultra Titanium Black.",
+  "description_ru": "Replaces the EyePhone model from EyeMod with a Samsung Galaxy S24 Ultra Titanium Black.",
+  "description_he": "Replaces the EyePhone model from EyeMod with a Samsung Galaxy S24 Ultra Titanium Black.",
+  "requreds_en": [
+    "<strong>Required game version: Forge 1.20.1.",
+    "Required mod: <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>."
+  ],
+  "requreds_ru": [
+    "<strong>Required game version: Forge 1.20.1.",
+    "Required mod: <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>."
+  ],
+  "requreds_he": [
+    "<strong>Required game version: Forge 1.20.1.",
+    "Required mod: <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>."
+  ],
+  "image_path_from_main": "index_data/info/eyephone-s24-ultra-titanium-black/",
+  "image_name": "icon.png",
+  "image_class": "card-icon",
+  "image_alt": "EyePhone S24 Ultra Titanium Black",
+  "link": "https://www.curseforge.com/minecraft/texture-packs/eyephone-s24-ultra-titanium-black",
+  "linker_class": "open-btn",
+  "dir_rtl": [
+    null
+  ],
+  "align_right": [
+    null
+  ],
+  "card_categore": "mcContiner",
+  "card_section": "texturesSubTitle"
+}

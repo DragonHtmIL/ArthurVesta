@@ -1,0 +1,34 @@
+{
+  "name_en": "Events Creator",
+  "name_ru": "Создатель событий",
+  "name_he": "יוצר אירועים",
+  "description_en": "This app use HTML, CSS and JS files for display your events.<br>Project created with Android Studio Panda.",
+  "description_ru": "Это приложение использует файлы HTML, CSS и JS для отображения ваших событий.<br>Проект создан с помощью Android Studio Panda.",
+  "description_he": "האפליקציה הזו משתמשת בקבצי HTML, CSS ו-JS להצגת האירועים שלך.<br>הפרויקט נוצר עם Android Studio Panda.",
+  "requreds_en": [
+    "<strong>Required version: Android 7.0+.</strong>"
+  ],
+  "requreds_ru": [
+    "<strong>Требуемая версия: Android 7.0+.</strong>"
+  ],
+  "requreds_he": [
+    "<strong>נדרשת גרסה: Android 7.0+.</strong>"
+  ],
+  "image_path_from_main": "index_data/info/av.mnts.eventscreator/",
+  "image_name": "icon.png",
+  "image_class": "card-icon",
+  "image_alt": "Events Creator",
+  "link": "https://github.com/DragonHtmIL/mnts.esc.org/releases/tag/eventscreator",
+  "linker_class": "open-btn",
+  "dir_rtl": [
+    "name_he",
+    "description_he",
+    "requreds_he"
+  ],
+  "align_right": [
+    "description_he",
+    "requreds_he"
+  ],
+  "card_categore": "aiAppsContiner",
+  "card_section": null
+}

@@ -1,0 +1,34 @@
+{
+  "name_en": "Recipes Book",
+  "name_ru": "Книга рецептов",
+  "name_he": "ספר מתכונים",
+  "description_en": "This site'll save your recipes.",
+  "description_ru": "Этот сайт сохранит ваши рецепты.",
+  "description_he": "האתר הזה ישמור את המתכונים שלכם.",
+  "requreds_en": [
+    "<a>Status: Comming Soon.</a>"
+  ],
+  "requreds_ru": [
+    "<a>Статус: Скоро будет.</a>"
+  ],
+  "requreds_he": [
+    "<a>סטטוס: בקרוב.</a>"
+  ],
+  "image_path_from_main": "index_data/info/mnts.rbcb.org/",
+  "image_name": "icon.png",
+  "image_class": "card-icon",
+  "image_alt": "Recipes Book",
+  "link": "https://dragonhtmil.github.io/mnts.rbcb.org/",
+  "linker_class": "open-btn",
+  "dir_rtl": [
+    "name_he",
+    "description_he",
+    "requreds_he"
+  ],
+  "align_right": [
+    "description_he",
+    "requreds_he"
+  ],
+  "card_categore": "websContiner",
+  "card_section": null
+}

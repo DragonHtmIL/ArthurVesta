@@ -1,0 +1,37 @@
+{
+  "name_en": "EyePhone K-ON Screen Animation Example",
+  "name_ru": "EyePhone K-ON Screen Animation Example",
+  "name_he": "EyePhone K-ON Screen Animation Example",
+  "description_en": "Screen texture replace Example 100Frames.",
+  "description_ru": "Screen texture replace Example 100Frames.",
+  "description_he": "Screen texture replace Example 100Frames.",
+  "requreds_en": [
+    "<strong>Required game version: Forge 1.20.1.",
+    "Required mod: <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.",
+    "Required texture: Any of EyePhone S24 Ultra by ArthurVesta(MNTS).</strong>."
+  ],
+  "requreds_ru": [
+    "<strong>Required game version: Forge 1.20.1.",
+    "Required mod: <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.",
+    "Required texture: Any of EyePhone S24 Ultra by ArthurVesta(MNTS).</strong>."
+  ],
+  "requreds_he": [
+    "<strong>Required game version: Forge 1.20.1.",
+    "Required mod: <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.",
+    "Required texture: Any of EyePhone S24 Ultra by ArthurVesta(MNTS).</strong>."
+  ],
+  "image_path_from_main": "index_data/info/eyephone-k-on-screen-animation-example/",
+  "image_name": "icon.png",
+  "image_class": "card-icon",
+  "image_alt": "EyePhone K-ON Screen Animation Example",
+  "link": "https://www.curseforge.com/minecraft/texture-packs/eyephone-k-on-screen-animation-example",
+  "linker_class": "open-btn",
+  "dir_rtl": [
+    null
+  ],
+  "align_right": [
+    null
+  ],
+  "card_categore": "mcContiner",
+  "card_section": "texturesSubTitle"
+}
