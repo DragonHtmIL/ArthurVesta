@@ -6,16 +6,16 @@
   "description_ru": "Replaces the EyePhone model from EyeMod with a Samsung Galaxy S24 Ultra Titanium Violet.",
   "description_he": "Replaces the EyePhone model from EyeMod with a Samsung Galaxy S24 Ultra Titanium Violet.",
   "requreds_en": [
-    "<strong>Required game version: Forge 1.20.1.",
-    "Required mod: <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>."
+    "<strong>Required game version: Forge 1.20.1.</strong>",
+    "<strong>Required mod: <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>"
   ],
   "requreds_ru": [
-    "<strong>Required game version: Forge 1.20.1.",
-    "Required mod: <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>."
+    "<strong>Required game version: Forge 1.20.1.</strong>",
+    "<strong>Required mod: <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>"
   ],
   "requreds_he": [
-    "<strong>Required game version: Forge 1.20.1.",
-    "Required mod: <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>."
+    "<strong>Required game version: Forge 1.20.1.</strong>",
+    "<strong>Required mod: <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>"
   ],
   "image_path_from_main": "index_data/info/eyephone-s24-ultra-tv/",
   "image_name": "icon.png",

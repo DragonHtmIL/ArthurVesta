@@ -6,19 +6,19 @@
   "description_ru": "Screen texture replace Example 100Frames.",
   "description_he": "Screen texture replace Example 100Frames.",
   "requreds_en": [
-    "<strong>Required game version: Forge 1.20.1.",
-    "Required mod: <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.",
-    "Required texture: Any of EyePhone S24 Ultra by ArthurVesta(MNTS).</strong>."
+    "<strong>Required game version: Forge 1.20.1.</strong>",
+    "<strong>Required mod: <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>",
+    "<strong>Required texture: Any of EyePhone S24 Ultra by ArthurVesta(MNTS).</strong>"
   ],
   "requreds_ru": [
-    "<strong>Required game version: Forge 1.20.1.",
-    "Required mod: <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.",
-    "Required texture: Any of EyePhone S24 Ultra by ArthurVesta(MNTS).</strong>."
+    "<strong>Required game version: Forge 1.20.1.</strong>",
+    "<strong>Required mod: <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>",
+    "<strong>Required texture: Any of EyePhone S24 Ultra by ArthurVesta(MNTS).</strong>"
   ],
   "requreds_he": [
-    "<strong>Required game version: Forge 1.20.1.",
-    "Required mod: <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.",
-    "Required texture: Any of EyePhone S24 Ultra by ArthurVesta(MNTS).</strong>."
+    "<strong>Required game version: Forge 1.20.1.</strong>",
+    "<strong>Required mod: <a href='https://www.curseforge.com/minecraft/mc-mods/eyemod-phone'>(Forge, 1.20.1) EyeMod - A Working Phone in Minecraft</a>.</strong>",
+    "<strong>Required texture: Any of EyePhone S24 Ultra by ArthurVesta(MNTS).</strong>"
   ],
   "image_path_from_main": "index_data/info/eyephone-k-on-screen-animation-example/",
   "image_name": "icon.png",

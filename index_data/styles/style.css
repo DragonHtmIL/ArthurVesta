@@ -445,20 +445,10 @@ input[type="checkbox"] {
 .card-buttons-frame button {
   width: 100%;
   border-radius: 0;
-  border-top: solid 1px var(--border);
-  border-bottom: none;
+  border: none;
 }
 .card-buttons-frame button:hover {
-  border-top: solid 1px var(--border-effect);
-}
-.card-buttons-frame button:last-child {
-  border-left: solid 1px var(--border);
-  border-right: none;
-  border-radius: 0 0 9px 0;
-}
-.card-buttons-frame button:first-child {
-  border-right: solid 1px var(--border);
-  border-left: none;
+  box-shadow: none;
 }
 .sub-titles {
   text-align: center;
