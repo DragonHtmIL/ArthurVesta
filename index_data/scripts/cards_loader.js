@@ -10,6 +10,7 @@ const infoFiles = [
   "index_data/info/mnts.dc.org/info.json",
   "index_data/info/mnts.memorycards.org/info.json",
   "index_data/info/mnts.rbcb.org/info.json",
+  "index_data/info/mnts.rndm.org/info.json",
   "index_data/info/mnts.smc.org/info.json",
   "index_data/info/mnts.sp.org/info.json"
 ];
