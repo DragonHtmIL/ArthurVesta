@@ -3,6 +3,7 @@ const infoFiles = [
   "index_data/info/AV_Gems_of_Minecraft_1.20.1/info.json",
   "index_data/info/AV_OpenFletching/info.json",
   "index_data/info/av.mnts.eventscreator/info.json",
+  "index_data/info/com.av.supercards/info.json",
   "index_data/info/eyephone-k-on-screen-animation-example/info.json",
   "index_data/info/eyephone-s24-ultra-titanium-black/info.json",
   "index_data/info/eyephone-s24-ultra-trailblazer-edition/info.json",

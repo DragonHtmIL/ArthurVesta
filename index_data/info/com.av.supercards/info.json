@@ -1,0 +1,34 @@
+{
+  "name_en": "Super Cards",
+  "name_ru": "Суперкарты",
+  "name_he": "קלפי על",
+  "description_en": "This is collection cards mini-game.",
+  "description_ru": "Это мини-игра по коллекционированию карточек.",
+  "description_he": "זהו משחק מיני של אוסף קלפים.",
+  "requreds_en": [
+    "<strong>Required version: Android 10.0+.</strong>"
+  ],
+  "requreds_ru": [
+    "<strong>Требуемая версия: Android 10.0+.</strong>"
+  ],
+  "requreds_he": [
+    "<strong>נדרשת גרסה: Android 10.0+.</strong>"
+  ],
+  "image_path_from_main": "index_data/info/com.av.supercards/",
+  "image_name": "icon.png",
+  "image_class": "card-icon",
+  "image_alt": "Super Cards",
+  "link": "https://github.com/DragonHtmIL/mnts.esc.org/releases/tag/supercards",
+  "linker_class": "open-btn",
+  "dir_rtl": [
+    "name_he",
+    "description_he",
+    "requreds_he"
+  ],
+  "align_right": [
+    "description_he",
+    "requreds_he"
+  ],
+  "card_categore": "aiAppsContiner",
+  "card_section": null
+}
