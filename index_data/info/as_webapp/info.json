@@ -1,0 +1,34 @@
+{
+  "name_en": "WebApps",
+  "name_ru": "Веб-приложения",
+  "name_he": "אפליקציות אינטרנט",
+  "description_en": "Download sites as apps.",
+  "description_ru": "Загружайте сайты в виде приложений.",
+  "description_he": "הורדו אתרים כאפליקציות.",
+  "requreds_en": [
+    "<strong>Required: Android.</strong>"
+  ],
+  "requreds_ru": [
+    "<strong>Требуется: Android.</strong>"
+  ],
+  "requreds_he": [
+    "<strong>נדרש: Android.</strong>"
+  ],
+  "image_path_from_main": "index_data/textures/",
+  "image_name": "icon.png",
+  "image_class": "card-icon",
+  "image_alt": "WebApps",
+  "link": "https://github.com/DragonHtmIL/mnts.esc.org/releases/tag/webapps",
+  "linker_class": "open-btn",
+  "dir_rtl": [
+    "name_he",
+    "description_he",
+    "requreds_he"
+  ],
+  "align_right": [
+    "description_he",
+    "requreds_he"
+  ],
+  "card_categore": "aiAppsContiner",
+  "card_section": null
+}
