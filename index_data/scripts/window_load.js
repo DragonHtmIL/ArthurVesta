@@ -3,6 +3,7 @@ window.addEventListener('load', function() {
   loadTexts();
   loadCards();
   loadIcon();
+  webSites();
   if(localStorage.getItem("lang") === "en") {
     document.getElementById("langSelection").value = "en";
   }else
@@ -12,5 +13,4 @@ window.addEventListener('load', function() {
   if(localStorage.getItem("lang") === "he") {
     document.getElementById("langSelection").value = "he";
   };
-  document.getElementById("webs").click();
 });

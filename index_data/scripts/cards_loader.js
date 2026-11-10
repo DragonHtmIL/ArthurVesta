@@ -14,7 +14,8 @@ const infoFiles = [
   "index_data/info/mnts.rbcb.org/info.json",
   "index_data/info/mnts.rndm.org/info.json",
   "index_data/info/mnts.smc.org/info.json",
-  "index_data/info/mnts.sp.org/info.json"
+  "index_data/info/mnts.sp.org/info.json",
+  "index_data/info/desktop-mouse-gestures.wh/info.json"
 ];
 const sectionDefinitions = [
   {

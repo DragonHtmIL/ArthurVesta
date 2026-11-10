@@ -15,6 +15,7 @@ function loadTexts() {
   const a000_set = document.getElementsByClassName("websLang");
   const a001_set = document.getElementsByClassName("mcLang");
   const a002_set = document.getElementsByClassName("open-btn");
+  const a003_set = document.getElementsByClassName("whLang");
   const a007_set = document.getElementsByClassName("aiAppsLang");
   if(localStorage.getItem("lang") === "en") {
     if(a001) a001.innerHTML = "Settings";
@@ -37,6 +38,9 @@ function loadTexts() {
     };
     for (let i = 0; i < a002_set.length; i++) {
       a002_set[i].textContent = "Open";
+    };
+    for (let i = 0; i < a003_set.length; i++) {
+      a003_set[i].textContent = "Windhawk";
     };
     for (let i = 0; i < a007_set.length; i++) {
       a007_set[i].textContent = "Apps For Android";
@@ -63,6 +67,9 @@ function loadTexts() {
     };
     for (let i = 0; i < a002_set.length; i++) {
       a002_set[i].textContent = "Открыть";
+    };
+    for (let i = 0; i < a003_set.length; i++) {
+      a003_set[i].textContent = "Windhawk";
     };
     for (let i = 0; i < a007_set.length; i++) {
       a007_set[i].textContent = "Приложения для Android";
@@ -92,6 +99,9 @@ function loadTexts() {
     };
     for (let i = 0; i < a002_set.length; i++) {
       a002_set[i].textContent = "לפתוח";
+    };
+    for (let i = 0; i < a003_set.length; i++) {
+      a003_set[i].textContent = "Windhawk";
     };
     for (let i = 0; i < a007_set.length; i++) {
       a007_set[i].textContent = "אפליקציות לאנדרואיד";

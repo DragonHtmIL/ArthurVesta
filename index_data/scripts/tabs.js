@@ -6,9 +6,12 @@ function webSites() {
   document.getElementById("mcContiner").style.zIndex = "0";
   document.getElementById("aiAppsContiner").style.bottom = "-100%";
   document.getElementById("aiAppsContiner").style.zIndex = "0";
+  document.getElementById("whContiner").style.bottom = "-100%";
+  document.getElementById("whContiner").style.zIndex = "0";
   document.getElementById("webs").classList = "tab active";
   document.getElementById("mc").classList = "tab";
   document.getElementById("aiApps").classList = "tab";
+  document.getElementById("wh").classList = "tab";
 //  if(content.scrollTop > 50) {
 //    document.getElementById("scrollToThisElement0").style.right = "0%";
 //  }else{
@@ -24,9 +27,12 @@ function androidApps() {
   document.getElementById("mcContiner").style.zIndex = "0";
   document.getElementById("websContiner").style.bottom = "-100%";
   document.getElementById("websContiner").style.zIndex = "0";
+  document.getElementById("whContiner").style.bottom = "-100%";
+  document.getElementById("whContiner").style.zIndex = "0";
   document.getElementById("webs").classList = "tab";
   document.getElementById("mc").classList = "tab";
   document.getElementById("aiApps").classList = "tab active";
+  document.getElementById("wh").classList = "tab";
 //  if(content.scrollTop > 50) {
 //    document.getElementById("scrollToThisElement0").style.right = "0%";
 //  }else{
@@ -42,9 +48,33 @@ function mineCraft() {
   document.getElementById("websContiner").style.zIndex = "0";
   document.getElementById("aiAppsContiner").style.bottom = "-100%";
   document.getElementById("aiAppsContiner").style.zIndex = "0";
+  document.getElementById("whContiner").style.bottom = "-100%";
+  document.getElementById("whContiner").style.zIndex = "0";
   document.getElementById("webs").classList = "tab";
   document.getElementById("mc").classList = "tab active";
   document.getElementById("aiApps").classList = "tab";
+  document.getElementById("wh").classList = "tab";
+//  if(content.scrollTop > 50) {
+//    document.getElementById("scrollToThisElement2").style.right = "0%";
+//  }else{
+//    document.getElementById("scrollToThisElement2").style.right = "-85px";
+//  }
+//  document.getElementById("scrollToThisElement1").style.right = "-85px";
+}
+function windHawk() {
+  const content = document.getElementById("whContiner");
+  content.style.bottom = "0%";
+  content.style.zIndex = "1";
+  document.getElementById("mcContiner").style.bottom = "-100%";
+  document.getElementById("mcContiner").style.zIndex = "0";
+  document.getElementById("websContiner").style.bottom = "-100%";
+  document.getElementById("websContiner").style.zIndex = "0";
+  document.getElementById("aiAppsContiner").style.bottom = "-100%";
+  document.getElementById("aiAppsContiner").style.zIndex = "0";
+  document.getElementById("webs").classList = "tab";
+  document.getElementById("mc").classList = "tab";
+  document.getElementById("aiApps").classList = "tab";
+  document.getElementById("wh").classList = "tab active";
 //  if(content.scrollTop > 50) {
 //    document.getElementById("scrollToThisElement2").style.right = "0%";
 //  }else{

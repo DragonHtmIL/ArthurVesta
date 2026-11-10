@@ -1,0 +1,34 @@
+{
+  "name_en": "Desktop Mouse Gestures",
+  "name_ru": "Жесты мыши на рабочем столе",
+  "name_he": "מחוות עכבר בשולחן העבודה",
+  "description_en": "Trigger actions by dragging from screen edges in desktop.",
+  "description_ru": "Запускайте действия, перетаскивая их за края экрана на рабочем столе.",
+  "description_he": "הפעל פעולות על ידי גרירה מקצוות המסך בשולחן העבודה.",
+  "requreds_en": [
+    "<strong>Required app: Windhawk.</strong>"
+  ],
+  "requreds_ru": [
+    "<strong>Требуемая приложения: Windhawk.</strong>"
+  ],
+  "requreds_he": [
+    "<strong>נדרשת אפליקציה: Windhawk.</strong>"
+  ],
+  "image_path_from_main": "https://raw.githubusercontent.com/DragonHtmIL/DesktopMouseGestures/main/",
+  "image_name": "20261108_013812.gif",
+  "image_class": "card-icon",
+  "image_alt": "Desktop Mouse Gestures",
+  "link": "index_data/info/desktop-mouse-gestures.wh/desktop-mouse-gestures.wh.cpp",
+  "linker_class": "open-btn",
+  "dir_rtl": [
+    "name_he",
+    "description_he",
+    "requreds_he"
+  ],
+  "align_right": [
+    "description_he",
+    "requreds_he"
+  ],
+  "card_categore": "whContiner",
+  "card_section": null
+}
