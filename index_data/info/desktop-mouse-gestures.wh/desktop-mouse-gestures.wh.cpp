@@ -45,8 +45,8 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
 /*
 - topGesture:
     - topAction: "0"
-      $name: From Top to Bottom
-      $description: Choose what happens when dragging from the top edge to the bottom.
+      $name: Left area action
+      $description: Choose what happens when dragging from the left area of the top edge.
       $options:
         - "0": "Disabled"
         - "1": "Notifications Center"
@@ -58,11 +58,11 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "7": "Custom provided keyboard shortcuts"
 
     - topApp: ""
-      $name: Custom app for Top to Bottom
-      $description: Enter an EXE path, command, or shell:AppsFolder command.
+      $name: Left area custom app
+      $description: Enter an EXE path, command, or shell:AppsFolder command for the left area.
 
     - topKey1: "CTRL"
-      $name: Key shortcut 1
+      $name: Left area key shortcut 1
       $options:
         - "ESC": "ESC"
         - "CTRL": "CTRL"
@@ -105,6 +105,16 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "X": "X"
         - "Y": "Y"
         - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
         - "F1": "F1"
         - "F2": "F2"
         - "F3": "F3"
@@ -119,7 +129,7 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "F12": "F12"
 
     - topKey2: ""
-      $name: Key shortcut 2 (optional)
+      $name: Left area key shortcut 2
       $options:
         - "": "None"
         - "ESC": "ESC"
@@ -163,6 +173,16 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "X": "X"
         - "Y": "Y"
         - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
         - "F1": "F1"
         - "F2": "F2"
         - "F3": "F3"
@@ -177,7 +197,7 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "F12": "F12"
 
     - topKey3: ""
-      $name: Key shortcut 3 (optional)
+      $name: Left area key shortcut 3
       $options:
         - "": "None"
         - "ESC": "ESC"
@@ -221,6 +241,236 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "X": "X"
         - "Y": "Y"
         - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
+        - "F1": "F1"
+        - "F2": "F2"
+        - "F3": "F3"
+        - "F4": "F4"
+        - "F5": "F5"
+        - "F6": "F6"
+        - "F7": "F7"
+        - "F8": "F8"
+        - "F9": "F9"
+        - "F10": "F10"
+        - "F11": "F11"
+        - "F12": "F12"
+    
+    - topSecondAction: "0"
+      $name: Right area action
+      $description: Choose what happens when dragging from the right area of the top edge.
+      $options:
+        - "0": "Disabled"
+        - "1": "Notifications Center"
+        - "2": "Move Between desktops"
+        - "3": "Quick Settings"
+        - "4": "Start Menu"
+        - "5": "Search Menu"
+        - "6": "Launch custom provided app"
+        - "7": "Custom provided keyboard shortcuts"
+
+    - topSecondApp: ""
+      $name: Right area custom app
+      $description: Enter an EXE path, command, or shell:AppsFolder command for the right area.
+
+    - topSecondKey1: "CTRL"
+      $name: Right area key shortcut 1
+      $options:
+        - "ESC": "ESC"
+        - "CTRL": "CTRL"
+        - "SHIFT": "SHIFT"
+        - "ALT": "ALT"
+        - "WIN": "WIN"
+        - "TAB": "TAB"
+        - "ENTER": "ENTER"
+        - "SPACE": "SPACE"
+        - "BACKSPACE": "BACKSPACE"
+        - "DELETE": "DELETE"
+        - "LEFT": "Left Arrow"
+        - "RIGHT": "Right Arrow"
+        - "UP": "Up Arrow"
+        - "DOWN": "Down Arrow"
+        - "PRTSC": "Print Screen"
+        - "A": "A"
+        - "B": "B"
+        - "C": "C"
+        - "D": "D"
+        - "E": "E"
+        - "F": "F"
+        - "G": "G"
+        - "H": "H"
+        - "I": "I"
+        - "J": "J"
+        - "K": "K"
+        - "L": "L"
+        - "M": "M"
+        - "N": "N"
+        - "O": "O"
+        - "P": "P"
+        - "Q": "Q"
+        - "R": "R"
+        - "S": "S"
+        - "T": "T"
+        - "U": "U"
+        - "V": "V"
+        - "W": "W"
+        - "X": "X"
+        - "Y": "Y"
+        - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
+        - "F1": "F1"
+        - "F2": "F2"
+        - "F3": "F3"
+        - "F4": "F4"
+        - "F5": "F5"
+        - "F6": "F6"
+        - "F7": "F7"
+        - "F8": "F8"
+        - "F9": "F9"
+        - "F10": "F10"
+        - "F11": "F11"
+        - "F12": "F12"
+
+    - topSecondKey2: ""
+      $name: Right area key shortcut 2
+      $options:
+        - "": "None"
+        - "ESC": "ESC"
+        - "CTRL": "CTRL"
+        - "SHIFT": "SHIFT"
+        - "ALT": "ALT"
+        - "WIN": "WIN"
+        - "TAB": "TAB"
+        - "ENTER": "ENTER"
+        - "SPACE": "SPACE"
+        - "BACKSPACE": "BACKSPACE"
+        - "DELETE": "DELETE"
+        - "LEFT": "Left Arrow"
+        - "RIGHT": "Right Arrow"
+        - "UP": "Up Arrow"
+        - "DOWN": "Down Arrow"
+        - "PRTSC": "Print Screen"
+        - "A": "A"
+        - "B": "B"
+        - "C": "C"
+        - "D": "D"
+        - "E": "E"
+        - "F": "F"
+        - "G": "G"
+        - "H": "H"
+        - "I": "I"
+        - "J": "J"
+        - "K": "K"
+        - "L": "L"
+        - "M": "M"
+        - "N": "N"
+        - "O": "O"
+        - "P": "P"
+        - "Q": "Q"
+        - "R": "R"
+        - "S": "S"
+        - "T": "T"
+        - "U": "U"
+        - "V": "V"
+        - "W": "W"
+        - "X": "X"
+        - "Y": "Y"
+        - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
+        - "F1": "F1"
+        - "F2": "F2"
+        - "F3": "F3"
+        - "F4": "F4"
+        - "F5": "F5"
+        - "F6": "F6"
+        - "F7": "F7"
+        - "F8": "F8"
+        - "F9": "F9"
+        - "F10": "F10"
+        - "F11": "F11"
+        - "F12": "F12"
+
+    - topSecondKey3: ""
+      $name: Right area key shortcut 3
+      $options:
+        - "": "None"
+        - "ESC": "ESC"
+        - "CTRL": "CTRL"
+        - "SHIFT": "SHIFT"
+        - "ALT": "ALT"
+        - "WIN": "WIN"
+        - "TAB": "TAB"
+        - "ENTER": "ENTER"
+        - "SPACE": "SPACE"
+        - "BACKSPACE": "BACKSPACE"
+        - "DELETE": "DELETE"
+        - "LEFT": "Left Arrow"
+        - "RIGHT": "Right Arrow"
+        - "UP": "Up Arrow"
+        - "DOWN": "Down Arrow"
+        - "PRTSC": "Print Screen"
+        - "A": "A"
+        - "B": "B"
+        - "C": "C"
+        - "D": "D"
+        - "E": "E"
+        - "F": "F"
+        - "G": "G"
+        - "H": "H"
+        - "I": "I"
+        - "J": "J"
+        - "K": "K"
+        - "L": "L"
+        - "M": "M"
+        - "N": "N"
+        - "O": "O"
+        - "P": "P"
+        - "Q": "Q"
+        - "R": "R"
+        - "S": "S"
+        - "T": "T"
+        - "U": "U"
+        - "V": "V"
+        - "W": "W"
+        - "X": "X"
+        - "Y": "Y"
+        - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
         - "F1": "F1"
         - "F2": "F2"
         - "F3": "F3"
@@ -235,13 +485,17 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "F12": "F12"
 
     - topEdgeSize: 5
-      $name: Top edge detection area
+      $name: Edge detection area
       $description: Size of the top screen edge area in pixels.
+    
+    - topSplitPercent: 50
+      $name: Left area size
+      $description: Percentage of the top edge used by the left area. Set to 100% to use only the left action, or 0% to use only the right action.
 
 - leftGesture:
     - leftAction: "0"
-      $name: From Left to Right
-      $description: Choose what happens when dragging from the left edge to the right.
+      $name: Upper area action
+      $description: Choose what happens when dragging from the upper area of the left edge.
       $options:
         - "0": "Disabled"
         - "1": "Notifications Center"
@@ -253,11 +507,11 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "7": "Custom provided keyboard shortcuts"
 
     - leftApp: ""
-      $name: Custom app for Left to Right
-      $description: Enter an EXE path, command, or shell:AppsFolder command.
+      $name: Upper area custom app
+      $description: Enter an EXE path, command, or shell:AppsFolder command for the upper area.
 
     - leftKey1: "CTRL"
-      $name: Key shortcut 1
+      $name: Upper area key shortcut 1
       $options:
         - "ESC": "ESC"
         - "CTRL": "CTRL"
@@ -300,6 +554,16 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "X": "X"
         - "Y": "Y"
         - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
         - "F1": "F1"
         - "F2": "F2"
         - "F3": "F3"
@@ -314,7 +578,7 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "F12": "F12"
 
     - leftKey2: ""
-      $name: Key shortcut 2 (optional)
+      $name: Upper area key shortcut 2
       $options:
         - "": "None"
         - "ESC": "ESC"
@@ -358,6 +622,16 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "X": "X"
         - "Y": "Y"
         - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
         - "F1": "F1"
         - "F2": "F2"
         - "F3": "F3"
@@ -372,7 +646,7 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "F12": "F12"
 
     - leftKey3: ""
-      $name: Key shortcut 3 (optional)
+      $name: Upper area key shortcut 3
       $options:
         - "": "None"
         - "ESC": "ESC"
@@ -416,6 +690,236 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "X": "X"
         - "Y": "Y"
         - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
+        - "F1": "F1"
+        - "F2": "F2"
+        - "F3": "F3"
+        - "F4": "F4"
+        - "F5": "F5"
+        - "F6": "F6"
+        - "F7": "F7"
+        - "F8": "F8"
+        - "F9": "F9"
+        - "F10": "F10"
+        - "F11": "F11"
+        - "F12": "F12"
+    
+    - leftSecondAction: "0"
+      $name: Lower area action
+      $description: Choose what happens when dragging from the lower area of the left edge.
+      $options:
+        - "0": "Disabled"
+        - "1": "Notifications Center"
+        - "2": "Move Between desktops"
+        - "3": "Quick Settings"
+        - "4": "Start Menu"
+        - "5": "Search Menu"
+        - "6": "Launch custom provided app"
+        - "7": "Custom provided keyboard shortcuts"
+
+    - leftSecondApp: ""
+      $name: Lower area custom app
+      $description: Enter an EXE path, command, or shell:AppsFolder command for the lower area.
+
+    - leftSecondKey1: "CTRL"
+      $name: Lower area key shortcut 1
+      $options:
+        - "ESC": "ESC"
+        - "CTRL": "CTRL"
+        - "SHIFT": "SHIFT"
+        - "ALT": "ALT"
+        - "WIN": "WIN"
+        - "TAB": "TAB"
+        - "ENTER": "ENTER"
+        - "SPACE": "SPACE"
+        - "BACKSPACE": "BACKSPACE"
+        - "DELETE": "DELETE"
+        - "LEFT": "Left Arrow"
+        - "RIGHT": "Right Arrow"
+        - "UP": "Up Arrow"
+        - "DOWN": "Down Arrow"
+        - "PRTSC": "Print Screen"
+        - "A": "A"
+        - "B": "B"
+        - "C": "C"
+        - "D": "D"
+        - "E": "E"
+        - "F": "F"
+        - "G": "G"
+        - "H": "H"
+        - "I": "I"
+        - "J": "J"
+        - "K": "K"
+        - "L": "L"
+        - "M": "M"
+        - "N": "N"
+        - "O": "O"
+        - "P": "P"
+        - "Q": "Q"
+        - "R": "R"
+        - "S": "S"
+        - "T": "T"
+        - "U": "U"
+        - "V": "V"
+        - "W": "W"
+        - "X": "X"
+        - "Y": "Y"
+        - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
+        - "F1": "F1"
+        - "F2": "F2"
+        - "F3": "F3"
+        - "F4": "F4"
+        - "F5": "F5"
+        - "F6": "F6"
+        - "F7": "F7"
+        - "F8": "F8"
+        - "F9": "F9"
+        - "F10": "F10"
+        - "F11": "F11"
+        - "F12": "F12"
+
+    - leftSecondKey2: ""
+      $name: Lower area key shortcut 2
+      $options:
+        - "": "None"
+        - "ESC": "ESC"
+        - "CTRL": "CTRL"
+        - "SHIFT": "SHIFT"
+        - "ALT": "ALT"
+        - "WIN": "WIN"
+        - "TAB": "TAB"
+        - "ENTER": "ENTER"
+        - "SPACE": "SPACE"
+        - "BACKSPACE": "BACKSPACE"
+        - "DELETE": "DELETE"
+        - "LEFT": "Left Arrow"
+        - "RIGHT": "Right Arrow"
+        - "UP": "Up Arrow"
+        - "DOWN": "Down Arrow"
+        - "PRTSC": "Print Screen"
+        - "A": "A"
+        - "B": "B"
+        - "C": "C"
+        - "D": "D"
+        - "E": "E"
+        - "F": "F"
+        - "G": "G"
+        - "H": "H"
+        - "I": "I"
+        - "J": "J"
+        - "K": "K"
+        - "L": "L"
+        - "M": "M"
+        - "N": "N"
+        - "O": "O"
+        - "P": "P"
+        - "Q": "Q"
+        - "R": "R"
+        - "S": "S"
+        - "T": "T"
+        - "U": "U"
+        - "V": "V"
+        - "W": "W"
+        - "X": "X"
+        - "Y": "Y"
+        - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
+        - "F1": "F1"
+        - "F2": "F2"
+        - "F3": "F3"
+        - "F4": "F4"
+        - "F5": "F5"
+        - "F6": "F6"
+        - "F7": "F7"
+        - "F8": "F8"
+        - "F9": "F9"
+        - "F10": "F10"
+        - "F11": "F11"
+        - "F12": "F12"
+
+    - leftSecondKey3: ""
+      $name: Lower area key shortcut 3
+      $options:
+        - "": "None"
+        - "ESC": "ESC"
+        - "CTRL": "CTRL"
+        - "SHIFT": "SHIFT"
+        - "ALT": "ALT"
+        - "WIN": "WIN"
+        - "TAB": "TAB"
+        - "ENTER": "ENTER"
+        - "SPACE": "SPACE"
+        - "BACKSPACE": "BACKSPACE"
+        - "DELETE": "DELETE"
+        - "LEFT": "Left Arrow"
+        - "RIGHT": "Right Arrow"
+        - "UP": "Up Arrow"
+        - "DOWN": "Down Arrow"
+        - "PRTSC": "Print Screen"
+        - "A": "A"
+        - "B": "B"
+        - "C": "C"
+        - "D": "D"
+        - "E": "E"
+        - "F": "F"
+        - "G": "G"
+        - "H": "H"
+        - "I": "I"
+        - "J": "J"
+        - "K": "K"
+        - "L": "L"
+        - "M": "M"
+        - "N": "N"
+        - "O": "O"
+        - "P": "P"
+        - "Q": "Q"
+        - "R": "R"
+        - "S": "S"
+        - "T": "T"
+        - "U": "U"
+        - "V": "V"
+        - "W": "W"
+        - "X": "X"
+        - "Y": "Y"
+        - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
         - "F1": "F1"
         - "F2": "F2"
         - "F3": "F3"
@@ -430,13 +934,17 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "F12": "F12"
 
     - leftEdgeSize: 5
-      $name: Left edge detection area
+      $name: Edge detection area
       $description: Size of the left screen edge area in pixels.
+    
+    - leftSplitPercent: 50
+      $name: Upper area size
+      $description: Percentage of the left edge used by the upper area. Set to 100% to use only the upper action, or 0% to use only the lower action.
 
 - bottomGesture:
     - bottomAction: "0"
-      $name: From Bottom to Top
-      $description: Choose what happens when dragging from the bottom edge to the top.
+      $name: Left area action
+      $description: Choose what happens when dragging from the left area of the bottom edge.
       $options:
         - "0": "Disabled"
         - "1": "Notifications Center"
@@ -448,11 +956,11 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "7": "Custom provided keyboard shortcuts"
 
     - bottomApp: ""
-      $name: Custom app for Bottom to Top
-      $description: Enter an EXE path, command, or shell:AppsFolder command.
+      $name: Left area custom app
+      $description: Enter an EXE path, command, or shell:AppsFolder command for the left area.
 
     - bottomKey1: "CTRL"
-      $name: Key shortcut 1
+      $name: Left area key shortcut 1
       $options:
         - "ESC": "ESC"
         - "CTRL": "CTRL"
@@ -495,6 +1003,16 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "X": "X"
         - "Y": "Y"
         - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
         - "F1": "F1"
         - "F2": "F2"
         - "F3": "F3"
@@ -509,7 +1027,7 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "F12": "F12"
 
     - bottomKey2: ""
-      $name: Key shortcut 2 (optional)
+      $name: Left area key shortcut 2
       $options:
         - "": "None"
         - "ESC": "ESC"
@@ -553,6 +1071,16 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "X": "X"
         - "Y": "Y"
         - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
         - "F1": "F1"
         - "F2": "F2"
         - "F3": "F3"
@@ -567,7 +1095,7 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "F12": "F12"
 
     - bottomKey3: ""
-      $name: Key shortcut 3 (optional)
+      $name: Left area key shortcut 3
       $options:
         - "": "None"
         - "ESC": "ESC"
@@ -611,6 +1139,236 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "X": "X"
         - "Y": "Y"
         - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
+        - "F1": "F1"
+        - "F2": "F2"
+        - "F3": "F3"
+        - "F4": "F4"
+        - "F5": "F5"
+        - "F6": "F6"
+        - "F7": "F7"
+        - "F8": "F8"
+        - "F9": "F9"
+        - "F10": "F10"
+        - "F11": "F11"
+        - "F12": "F12"
+    
+    - bottomSecondAction: "0"
+      $name: Right area action
+      $description: Choose what happens when dragging from the right area of the bottom edge.
+      $options:
+        - "0": "Disabled"
+        - "1": "Notifications Center"
+        - "2": "Move Between desktops"
+        - "3": "Quick Settings"
+        - "4": "Start Menu"
+        - "5": "Search Menu"
+        - "6": "Launch custom provided app"
+        - "7": "Custom provided keyboard shortcuts"
+
+    - bottomSecondApp: ""
+      $name: Right area custom app
+      $description: Enter an EXE path, command, or shell:AppsFolder command for the right area.
+
+    - bottomSecondKey1: "CTRL"
+      $name: Right area key shortcut 1
+      $options:
+        - "ESC": "ESC"
+        - "CTRL": "CTRL"
+        - "SHIFT": "SHIFT"
+        - "ALT": "ALT"
+        - "WIN": "WIN"
+        - "TAB": "TAB"
+        - "ENTER": "ENTER"
+        - "SPACE": "SPACE"
+        - "BACKSPACE": "BACKSPACE"
+        - "DELETE": "DELETE"
+        - "LEFT": "Left Arrow"
+        - "RIGHT": "Right Arrow"
+        - "UP": "Up Arrow"
+        - "DOWN": "Down Arrow"
+        - "PRTSC": "Print Screen"
+        - "A": "A"
+        - "B": "B"
+        - "C": "C"
+        - "D": "D"
+        - "E": "E"
+        - "F": "F"
+        - "G": "G"
+        - "H": "H"
+        - "I": "I"
+        - "J": "J"
+        - "K": "K"
+        - "L": "L"
+        - "M": "M"
+        - "N": "N"
+        - "O": "O"
+        - "P": "P"
+        - "Q": "Q"
+        - "R": "R"
+        - "S": "S"
+        - "T": "T"
+        - "U": "U"
+        - "V": "V"
+        - "W": "W"
+        - "X": "X"
+        - "Y": "Y"
+        - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
+        - "F1": "F1"
+        - "F2": "F2"
+        - "F3": "F3"
+        - "F4": "F4"
+        - "F5": "F5"
+        - "F6": "F6"
+        - "F7": "F7"
+        - "F8": "F8"
+        - "F9": "F9"
+        - "F10": "F10"
+        - "F11": "F11"
+        - "F12": "F12"
+
+    - bottomSecondKey2: ""
+      $name: Right area key shortcut 2
+      $options:
+        - "": "None"
+        - "ESC": "ESC"
+        - "CTRL": "CTRL"
+        - "SHIFT": "SHIFT"
+        - "ALT": "ALT"
+        - "WIN": "WIN"
+        - "TAB": "TAB"
+        - "ENTER": "ENTER"
+        - "SPACE": "SPACE"
+        - "BACKSPACE": "BACKSPACE"
+        - "DELETE": "DELETE"
+        - "LEFT": "Left Arrow"
+        - "RIGHT": "Right Arrow"
+        - "UP": "Up Arrow"
+        - "DOWN": "Down Arrow"
+        - "PRTSC": "Print Screen"
+        - "A": "A"
+        - "B": "B"
+        - "C": "C"
+        - "D": "D"
+        - "E": "E"
+        - "F": "F"
+        - "G": "G"
+        - "H": "H"
+        - "I": "I"
+        - "J": "J"
+        - "K": "K"
+        - "L": "L"
+        - "M": "M"
+        - "N": "N"
+        - "O": "O"
+        - "P": "P"
+        - "Q": "Q"
+        - "R": "R"
+        - "S": "S"
+        - "T": "T"
+        - "U": "U"
+        - "V": "V"
+        - "W": "W"
+        - "X": "X"
+        - "Y": "Y"
+        - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
+        - "F1": "F1"
+        - "F2": "F2"
+        - "F3": "F3"
+        - "F4": "F4"
+        - "F5": "F5"
+        - "F6": "F6"
+        - "F7": "F7"
+        - "F8": "F8"
+        - "F9": "F9"
+        - "F10": "F10"
+        - "F11": "F11"
+        - "F12": "F12"
+
+    - bottomSecondKey3: ""
+      $name: Right area key shortcut 3
+      $options:
+        - "": "None"
+        - "ESC": "ESC"
+        - "CTRL": "CTRL"
+        - "SHIFT": "SHIFT"
+        - "ALT": "ALT"
+        - "WIN": "WIN"
+        - "TAB": "TAB"
+        - "ENTER": "ENTER"
+        - "SPACE": "SPACE"
+        - "BACKSPACE": "BACKSPACE"
+        - "DELETE": "DELETE"
+        - "LEFT": "Left Arrow"
+        - "RIGHT": "Right Arrow"
+        - "UP": "Up Arrow"
+        - "DOWN": "Down Arrow"
+        - "PRTSC": "Print Screen"
+        - "A": "A"
+        - "B": "B"
+        - "C": "C"
+        - "D": "D"
+        - "E": "E"
+        - "F": "F"
+        - "G": "G"
+        - "H": "H"
+        - "I": "I"
+        - "J": "J"
+        - "K": "K"
+        - "L": "L"
+        - "M": "M"
+        - "N": "N"
+        - "O": "O"
+        - "P": "P"
+        - "Q": "Q"
+        - "R": "R"
+        - "S": "S"
+        - "T": "T"
+        - "U": "U"
+        - "V": "V"
+        - "W": "W"
+        - "X": "X"
+        - "Y": "Y"
+        - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
         - "F1": "F1"
         - "F2": "F2"
         - "F3": "F3"
@@ -625,13 +1383,17 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "F12": "F12"
 
     - bottomEdgeSize: 5
-      $name: Bottom edge detection area
+      $name: Edge detection area
       $description: Size of the bottom screen edge area in pixels.
+    
+    - bottomSplitPercent: 50
+      $name: Left area size
+      $description: Percentage of the bottom edge used by the left area. Set to 100% to use only the left action, or 0% to use only the right action.
 
 - rightGesture:
     - rightAction: "0"
-      $name: From Right to Left
-      $description: Choose what happens when dragging from the right edge to the left.
+      $name: Upper area action
+      $description: Choose what happens when dragging from the upper area of the right edge.
       $options:
         - "0": "Disabled"
         - "1": "Notifications Center"
@@ -643,11 +1405,11 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "7": "Custom provided keyboard shortcuts"
 
     - rightApp: ""
-      $name: Custom app for Right to Left
-      $description: Enter an EXE path, command, or shell:AppsFolder command.
+      $name: Upper area custom app
+      $description: Enter an EXE path, command, or shell:AppsFolder command for the upper area.
 
     - rightKey1: "CTRL"
-      $name: Key shortcut 1
+      $name: Upper area key shortcut 1
       $options:
         - "ESC": "ESC"
         - "CTRL": "CTRL"
@@ -690,6 +1452,16 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "X": "X"
         - "Y": "Y"
         - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
         - "F1": "F1"
         - "F2": "F2"
         - "F3": "F3"
@@ -704,7 +1476,7 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "F12": "F12"
 
     - rightKey2: ""
-      $name: Key shortcut 2 (optional)
+      $name: Upper area key shortcut 2
       $options:
         - "": "None"
         - "ESC": "ESC"
@@ -748,6 +1520,16 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "X": "X"
         - "Y": "Y"
         - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
         - "F1": "F1"
         - "F2": "F2"
         - "F3": "F3"
@@ -762,7 +1544,7 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "F12": "F12"
 
     - rightKey3: ""
-      $name: Key shortcut 3 (optional)
+      $name: Upper area key shortcut 3
       $options:
         - "": "None"
         - "ESC": "ESC"
@@ -806,6 +1588,236 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "X": "X"
         - "Y": "Y"
         - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
+        - "F1": "F1"
+        - "F2": "F2"
+        - "F3": "F3"
+        - "F4": "F4"
+        - "F5": "F5"
+        - "F6": "F6"
+        - "F7": "F7"
+        - "F8": "F8"
+        - "F9": "F9"
+        - "F10": "F10"
+        - "F11": "F11"
+        - "F12": "F12"
+    
+    - rightSecondAction: "0"
+      $name: Lower area action
+      $description: Choose what happens when dragging from the lower area of the right edge.
+      $options:
+        - "0": "Disabled"
+        - "1": "Notifications Center"
+        - "2": "Move Between desktops"
+        - "3": "Quick Settings"
+        - "4": "Start Menu"
+        - "5": "Search Menu"
+        - "6": "Launch custom provided app"
+        - "7": "Custom provided keyboard shortcuts"
+
+    - rightSecondApp: ""
+      $name: Lower area custom app
+      $description: Enter an EXE path, command, or shell:AppsFolder command for the lower area.
+
+    - rightSecondKey1: "CTRL"
+      $name: Lower area key shortcut 1
+      $options:
+        - "ESC": "ESC"
+        - "CTRL": "CTRL"
+        - "SHIFT": "SHIFT"
+        - "ALT": "ALT"
+        - "WIN": "WIN"
+        - "TAB": "TAB"
+        - "ENTER": "ENTER"
+        - "SPACE": "SPACE"
+        - "BACKSPACE": "BACKSPACE"
+        - "DELETE": "DELETE"
+        - "LEFT": "Left Arrow"
+        - "RIGHT": "Right Arrow"
+        - "UP": "Up Arrow"
+        - "DOWN": "Down Arrow"
+        - "PRTSC": "Print Screen"
+        - "A": "A"
+        - "B": "B"
+        - "C": "C"
+        - "D": "D"
+        - "E": "E"
+        - "F": "F"
+        - "G": "G"
+        - "H": "H"
+        - "I": "I"
+        - "J": "J"
+        - "K": "K"
+        - "L": "L"
+        - "M": "M"
+        - "N": "N"
+        - "O": "O"
+        - "P": "P"
+        - "Q": "Q"
+        - "R": "R"
+        - "S": "S"
+        - "T": "T"
+        - "U": "U"
+        - "V": "V"
+        - "W": "W"
+        - "X": "X"
+        - "Y": "Y"
+        - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
+        - "F1": "F1"
+        - "F2": "F2"
+        - "F3": "F3"
+        - "F4": "F4"
+        - "F5": "F5"
+        - "F6": "F6"
+        - "F7": "F7"
+        - "F8": "F8"
+        - "F9": "F9"
+        - "F10": "F10"
+        - "F11": "F11"
+        - "F12": "F12"
+
+    - rightSecondKey2: ""
+      $name: Lower area key shortcut 2
+      $options:
+        - "": "None"
+        - "ESC": "ESC"
+        - "CTRL": "CTRL"
+        - "SHIFT": "SHIFT"
+        - "ALT": "ALT"
+        - "WIN": "WIN"
+        - "TAB": "TAB"
+        - "ENTER": "ENTER"
+        - "SPACE": "SPACE"
+        - "BACKSPACE": "BACKSPACE"
+        - "DELETE": "DELETE"
+        - "LEFT": "Left Arrow"
+        - "RIGHT": "Right Arrow"
+        - "UP": "Up Arrow"
+        - "DOWN": "Down Arrow"
+        - "PRTSC": "Print Screen"
+        - "A": "A"
+        - "B": "B"
+        - "C": "C"
+        - "D": "D"
+        - "E": "E"
+        - "F": "F"
+        - "G": "G"
+        - "H": "H"
+        - "I": "I"
+        - "J": "J"
+        - "K": "K"
+        - "L": "L"
+        - "M": "M"
+        - "N": "N"
+        - "O": "O"
+        - "P": "P"
+        - "Q": "Q"
+        - "R": "R"
+        - "S": "S"
+        - "T": "T"
+        - "U": "U"
+        - "V": "V"
+        - "W": "W"
+        - "X": "X"
+        - "Y": "Y"
+        - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
+        - "F1": "F1"
+        - "F2": "F2"
+        - "F3": "F3"
+        - "F4": "F4"
+        - "F5": "F5"
+        - "F6": "F6"
+        - "F7": "F7"
+        - "F8": "F8"
+        - "F9": "F9"
+        - "F10": "F10"
+        - "F11": "F11"
+        - "F12": "F12"
+
+    - rightSecondKey3: ""
+      $name: Lower area key shortcut 3
+      $options:
+        - "": "None"
+        - "ESC": "ESC"
+        - "CTRL": "CTRL"
+        - "SHIFT": "SHIFT"
+        - "ALT": "ALT"
+        - "WIN": "WIN"
+        - "TAB": "TAB"
+        - "ENTER": "ENTER"
+        - "SPACE": "SPACE"
+        - "BACKSPACE": "BACKSPACE"
+        - "DELETE": "DELETE"
+        - "LEFT": "Left Arrow"
+        - "RIGHT": "Right Arrow"
+        - "UP": "Up Arrow"
+        - "DOWN": "Down Arrow"
+        - "PRTSC": "Print Screen"
+        - "A": "A"
+        - "B": "B"
+        - "C": "C"
+        - "D": "D"
+        - "E": "E"
+        - "F": "F"
+        - "G": "G"
+        - "H": "H"
+        - "I": "I"
+        - "J": "J"
+        - "K": "K"
+        - "L": "L"
+        - "M": "M"
+        - "N": "N"
+        - "O": "O"
+        - "P": "P"
+        - "Q": "Q"
+        - "R": "R"
+        - "S": "S"
+        - "T": "T"
+        - "U": "U"
+        - "V": "V"
+        - "W": "W"
+        - "X": "X"
+        - "Y": "Y"
+        - "Z": "Z"
+        - "0": "0"
+        - "1": "1"
+        - "2": "2"
+        - "3": "3"
+        - "4": "4"
+        - "5": "5"
+        - "6": "6"
+        - "7": "7"
+        - "8": "8"
+        - "9": "9"
         - "F1": "F1"
         - "F2": "F2"
         - "F3": "F3"
@@ -820,8 +1832,12 @@ C:\Path\To\AnApp.exe --app-id=idofapp (Example based from Yandex)
         - "F12": "F12"
 
     - rightEdgeSize: 5
-      $name: Right edge detection area
+      $name: Edge detection area
       $description: Size of the right screen edge area in pixels.
+    
+    - rightSplitPercent: 50
+      $name: Upper area size
+      $description: Percentage of the right edge used by the upper area. Set to 100% to use only the upper action, or 0% to use only the lower action.
 
 - gestureDistance: 100
   $name: Minimum gesture distance
@@ -856,24 +1872,43 @@ enum GestureDirection {
 };
 
 struct Settings {
+    // First area actions
     int topAction;
     int leftAction;
     int bottomAction;
     int rightAction;
+
+    // Second area actions
+    int topSecondAction;
+    int leftSecondAction;
+    int bottomSecondAction;
+    int rightSecondAction;
 
     int topEdgeSize;
     int leftEdgeSize;
     int bottomEdgeSize;
     int rightEdgeSize;
 
+    int topSplitPercent;
+    int leftSplitPercent;
+    int bottomSplitPercent;
+    int rightSplitPercent;
+
     int gestureDistance;
 
     bool disableInFullscreen;
 
+    // First area apps
     PCWSTR topApp;
     PCWSTR leftApp;
     PCWSTR bottomApp;
     PCWSTR rightApp;
+
+    // Second area apps
+    PCWSTR topSecondApp;
+    PCWSTR leftSecondApp;
+    PCWSTR bottomSecondApp;
+    PCWSTR rightSecondApp;
 
     PCWSTR topKey1;
     PCWSTR topKey2;
@@ -890,6 +1925,23 @@ struct Settings {
     PCWSTR rightKey1;
     PCWSTR rightKey2;
     PCWSTR rightKey3;
+
+    // Second area shortcuts
+    PCWSTR topSecondKey1;
+    PCWSTR topSecondKey2;
+    PCWSTR topSecondKey3;
+
+    PCWSTR leftSecondKey1;
+    PCWSTR leftSecondKey2;
+    PCWSTR leftSecondKey3;
+
+    PCWSTR bottomSecondKey1;
+    PCWSTR bottomSecondKey2;
+    PCWSTR bottomSecondKey3;
+
+    PCWSTR rightSecondKey1;
+    PCWSTR rightSecondKey2;
+    PCWSTR rightSecondKey3;
 };
 
 Settings settings;
@@ -913,10 +1965,21 @@ void LoadSettings() {
     settings.bottomAction = _wtoi(Wh_GetStringSetting(L"bottomGesture.bottomAction"));
     settings.rightAction = _wtoi(Wh_GetStringSetting(L"rightGesture.rightAction"));
 
+    // Second area actions
+    settings.topSecondAction = _wtoi(Wh_GetStringSetting(L"topGesture.topSecondAction"));
+    settings.leftSecondAction = _wtoi(Wh_GetStringSetting(L"leftGesture.leftSecondAction"));
+    settings.bottomSecondAction = _wtoi(Wh_GetStringSetting(L"bottomGesture.bottomSecondAction"));
+    settings.rightSecondAction = _wtoi(Wh_GetStringSetting(L"rightGesture.rightSecondAction"));
+
     settings.topEdgeSize = Wh_GetIntSetting(L"topGesture.topEdgeSize");
     settings.leftEdgeSize = Wh_GetIntSetting(L"leftGesture.leftEdgeSize");
     settings.bottomEdgeSize = Wh_GetIntSetting(L"bottomGesture.bottomEdgeSize");
     settings.rightEdgeSize = Wh_GetIntSetting(L"rightGesture.rightEdgeSize");
+
+    settings.topSplitPercent = Wh_GetIntSetting(L"topGesture.topSplitPercent");
+    settings.leftSplitPercent = Wh_GetIntSetting(L"leftGesture.leftSplitPercent");
+    settings.bottomSplitPercent = Wh_GetIntSetting(L"bottomGesture.bottomSplitPercent");
+    settings.rightSplitPercent = Wh_GetIntSetting(L"rightGesture.rightSplitPercent");
 
     settings.gestureDistance = Wh_GetIntSetting(L"gestureDistance");
 
@@ -926,6 +1989,12 @@ void LoadSettings() {
     settings.leftApp = Wh_GetStringSetting(L"leftGesture.leftApp");
     settings.bottomApp = Wh_GetStringSetting(L"bottomGesture.bottomApp");
     settings.rightApp = Wh_GetStringSetting(L"rightGesture.rightApp");
+
+    // Second area apps
+    settings.topSecondApp = Wh_GetStringSetting(L"topGesture.topSecondApp");
+    settings.leftSecondApp = Wh_GetStringSetting(L"leftGesture.leftSecondApp");
+    settings.bottomSecondApp = Wh_GetStringSetting(L"bottomGesture.bottomSecondApp");
+    settings.rightSecondApp = Wh_GetStringSetting(L"rightGesture.rightSecondApp");
 
     settings.topKey1 = Wh_GetStringSetting(L"topGesture.topKey1");
     settings.topKey2 = Wh_GetStringSetting(L"topGesture.topKey2");
@@ -942,6 +2011,23 @@ void LoadSettings() {
     settings.rightKey1 = Wh_GetStringSetting(L"rightGesture.rightKey1");
     settings.rightKey2 = Wh_GetStringSetting(L"rightGesture.rightKey2");
     settings.rightKey3 = Wh_GetStringSetting(L"rightGesture.rightKey3");
+
+    // Second area shortcuts
+    settings.topSecondKey1 = Wh_GetStringSetting(L"topGesture.topSecondKey1");
+    settings.topSecondKey2 = Wh_GetStringSetting(L"topGesture.topSecondKey2");
+    settings.topSecondKey3 = Wh_GetStringSetting(L"topGesture.topSecondKey3");
+
+    settings.leftSecondKey1 = Wh_GetStringSetting(L"leftGesture.leftSecondKey1");
+    settings.leftSecondKey2 = Wh_GetStringSetting(L"leftGesture.leftSecondKey2");
+    settings.leftSecondKey3 = Wh_GetStringSetting(L"leftGesture.leftSecondKey3");
+
+    settings.bottomSecondKey1 = Wh_GetStringSetting(L"bottomGesture.bottomSecondKey1");
+    settings.bottomSecondKey2 = Wh_GetStringSetting(L"bottomGesture.bottomSecondKey2");
+    settings.bottomSecondKey3 = Wh_GetStringSetting(L"bottomGesture.bottomSecondKey3");
+
+    settings.rightSecondKey1 = Wh_GetStringSetting(L"rightGesture.rightSecondKey1");
+    settings.rightSecondKey2 = Wh_GetStringSetting(L"rightGesture.rightSecondKey2");
+    settings.rightSecondKey3 = Wh_GetStringSetting(L"rightGesture.rightSecondKey3");
 }
 
 // ------------------------------------------------------------
@@ -1311,6 +2397,63 @@ GestureDirection DetectEdge(POINT point) {
     return GESTURE_NONE;
 }
 
+// ------------------------------------------------------------
+// Check whether the gesture started in the first or second area
+// ------------------------------------------------------------
+
+bool IsFirstArea(GestureDirection direction, POINT point) {
+
+    RECT desktop = GetDesktopRect();
+
+    int percent = 50;
+
+    switch (direction) {
+        case GESTURE_TOP:
+            percent = settings.topSplitPercent;
+            break;
+
+        case GESTURE_LEFT:
+            percent = settings.leftSplitPercent;
+            break;
+
+        case GESTURE_BOTTOM:
+            percent = settings.bottomSplitPercent;
+            break;
+
+        case GESTURE_RIGHT:
+            percent = settings.rightSplitPercent;
+            break;
+
+        default:
+            return true;
+    }
+
+    // Keep the percentage within 0–100.
+    if (percent < 0) percent = 0;
+    if (percent > 100) percent = 100;
+
+    int width = desktop.right - desktop.left;
+    int height = desktop.bottom - desktop.top;
+
+    switch (direction) {
+        case GESTURE_TOP:
+        case GESTURE_BOTTOM:
+        {
+            int splitX = desktop.left + (width * percent / 100);
+            return point.x < splitX;
+        }
+
+        case GESTURE_LEFT:
+        case GESTURE_RIGHT:
+        {
+            int splitY = desktop.top + (height * percent / 100);
+            return point.y < splitY;
+        }
+
+        default:
+            return true;
+    }
+}
 
 // ------------------------------------------------------------
 // Check whether the mouse moved in the correct direction
@@ -1354,58 +2497,102 @@ bool IsValidGesture(
 // ------------------------------------------------------------
 
 void TriggerGesture(
-    GestureDirection direction
+    GestureDirection direction,
+    POINT startPoint
 ) {
+
+    bool firstArea = IsFirstArea(direction, startPoint);
+
+    int action = ACTION_DISABLED;
+
+    PCWSTR customApp = nullptr;
+    PCWSTR key1 = nullptr;
+    PCWSTR key2 = nullptr;
+    PCWSTR key3 = nullptr;
+
     switch (direction) {
+
         case GESTURE_TOP:
-            PerformAction(
-                settings.topAction,
-                direction,
-                settings.topApp,
-                settings.topKey1,
-                settings.topKey2,
-                settings.topKey3
-            );
+            if (firstArea) {
+                action = settings.topAction;
+                customApp = settings.topApp;
+                key1 = settings.topKey1;
+                key2 = settings.topKey2;
+                key3 = settings.topKey3;
+            }
+            else {
+                action = settings.topSecondAction;
+                customApp = settings.topSecondApp;
+                key1 = settings.topSecondKey1;
+                key2 = settings.topSecondKey2;
+                key3 = settings.topSecondKey3;
+            }
             break;
 
         case GESTURE_LEFT:
-            PerformAction(
-                settings.leftAction,
-                direction,
-                settings.leftApp,
-                settings.leftKey1,
-                settings.leftKey2,
-                settings.leftKey3
-            );
+            if (firstArea) {
+                action = settings.leftAction;
+                customApp = settings.leftApp;
+                key1 = settings.leftKey1;
+                key2 = settings.leftKey2;
+                key3 = settings.leftKey3;
+            }
+            else {
+                action = settings.leftSecondAction;
+                customApp = settings.leftSecondApp;
+                key1 = settings.leftSecondKey1;
+                key2 = settings.leftSecondKey2;
+                key3 = settings.leftSecondKey3;
+            }
             break;
 
         case GESTURE_BOTTOM:
-            PerformAction(
-                settings.bottomAction,
-                direction,
-                settings.bottomApp,
-                settings.bottomKey1,
-                settings.bottomKey2,
-                settings.bottomKey3
-            );
+            if (firstArea) {
+                action = settings.bottomAction;
+                customApp = settings.bottomApp;
+                key1 = settings.bottomKey1;
+                key2 = settings.bottomKey2;
+                key3 = settings.bottomKey3;
+            }
+            else {
+                action = settings.bottomSecondAction;
+                customApp = settings.bottomSecondApp;
+                key1 = settings.bottomSecondKey1;
+                key2 = settings.bottomSecondKey2;
+                key3 = settings.bottomSecondKey3;
+            }
             break;
 
         case GESTURE_RIGHT:
-            PerformAction(
-                settings.rightAction,
-                direction,
-                settings.rightApp,
-                settings.rightKey1,
-                settings.rightKey2,
-                settings.rightKey3
-            );
+            if (firstArea) {
+                action = settings.rightAction;
+                customApp = settings.rightApp;
+                key1 = settings.rightKey1;
+                key2 = settings.rightKey2;
+                key3 = settings.rightKey3;
+            }
+            else {
+                action = settings.rightSecondAction;
+                customApp = settings.rightSecondApp;
+                key1 = settings.rightSecondKey1;
+                key2 = settings.rightSecondKey2;
+                key3 = settings.rightSecondKey3;
+            }
             break;
 
         default:
-            break;
+            return;
     }
-}
 
+    PerformAction(
+        action,
+        direction,
+        customApp,
+        key1,
+        key2,
+        key3
+    );
+}
 
 // ------------------------------------------------------------
 // Low-level mouse hook
@@ -1484,7 +2671,7 @@ LRESULT CALLBACK MouseHookProc(
                             g_startDirection
                         );
 
-                        TriggerGesture(g_startDirection);
+                        TriggerGesture(g_startDirection, g_startPoint);
                     }
 
                     g_trackingGesture = false;
