@@ -445,10 +445,27 @@ input[type="checkbox"] {
 .card-buttons-frame button {
   width: 100%;
   border-radius: 0;
-  border: none;
+  border: solid 1px var(--border);
+  border-bottom: none;
+}
+.card-buttons-frame button:first-child {
+  border-left: none;
+}
+.card-buttons-frame button:last-child {
+  border-right: none;
 }
 .card-buttons-frame button:hover {
   box-shadow: none;
+}
+.card:hover .card-buttons-frame button {
+  border: solid 1px var(--border-effect);
+  border-bottom: none;
+}
+.card:hover .card-buttons-frame button:first-child {
+  border-left: none;
+}
+.card:hover .card-buttons-frame button:last-child {
+  border-right: none;
 }
 .sub-titles {
   text-align: center;
@@ -461,27 +478,6 @@ strong a,
 .card-content a {
   color: var(--text-active);
   font-weight: normal;
-}
-.info-btn {
-  width: 100px;
-  height: auto;
-  position: relative;
-  padding: 0px 20px;
-}
-#infoImage {
-  float: left;
-  width: 26px;
-  height: 26px;
-}
-#infoTitle {
-  padding-left: 36px;
-  padding-right: 36px;
-}
-#infoContent {
-  width: 100%;
-  overflow: auto;
-  height: 300px;
-  padding: 0 36px;
 }
 @font-face {
   font-family: spFont;

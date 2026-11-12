@@ -1,7 +1,7 @@
 window.addEventListener('load', function() {
   checkLanguageStorage();
   loadTexts();
-  loadCards();
+  loadCards().then(loadTexts);
   loadIcon();
   webSites();
   if(localStorage.getItem("lang") === "en") {

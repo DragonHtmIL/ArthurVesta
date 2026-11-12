@@ -14,11 +14,8 @@ function loadTexts() {
   /////////////////////////////////Sets/////////////////////////////////
   const a000_set = document.getElementsByClassName("websLang");
   const a001_set = document.getElementsByClassName("mcLang");
-  const a002_set = document.getElementsByClassName("open-btn");
+  const a002_set = document.querySelectorAll(".open-btn");
   const a003_set = document.getElementsByClassName("whLang");
-  const a004_set = document.getElementsByClassName("open-btn en");
-  const a005_set = document.getElementsByClassName("open-btn ru");
-  const a006_set = document.getElementsByClassName("open-btn he");
   const a007_set = document.getElementsByClassName("aiAppsLang");
   if(localStorage.getItem("lang") === "en") {
     if(a001) a001.innerHTML = "Settings";
@@ -40,25 +37,20 @@ function loadTexts() {
       a001_set[i].textContent = "Minecraft";
     };
     for (let i = 0; i < a002_set.length; i++) {
-      if(a002_set[i].classList.contains === "en" || "ru" || "he") return;
-      if(a002_set[i].classList.contains === "en") {
-        a004_set[i].textContent = "Open in English";
+      if(a002_set[i].classList.contains("en")) {
+        a002_set[i].textContent = "Open in English";
       }else
-      if(a002_set[i].classList.contains === "en") {
-        a004_set[i].textContent = "Open in English";
+      if(a002_set[i].classList.contains("ru")) {
+        a002_set[i].textContent = "Open in Russian";
+      }else
+      if(a002_set[i].classList.contains("he")) {
+        a002_set[i].textContent = "Open in Hebrew";
+      }else{
+        a002_set[i].textContent = "Open";
       }
-      a002_set[i].textContent = "Open";
     };
     for (let i = 0; i < a003_set.length; i++) {
       a003_set[i].textContent = "Windhawk";
-    };
-    for (let i = 0; i < a004_set.length; i++) {
-    };
-    for (let i = 0; i < a005_set.length; i++) {
-      a005_set[i].textContent = "Open in Russian";
-    };
-    for (let i = 0; i < a006_set.length; i++) {
-      a006_set[i].textContent = "Open in Hebrew";
     };
     for (let i = 0; i < a007_set.length; i++) {
       a007_set[i].textContent = "Apps For Android";
@@ -84,19 +76,20 @@ function loadTexts() {
       a001_set[i].textContent = "Майнкрафт";
     };
     for (let i = 0; i < a002_set.length; i++) {
-      a002_set[i].textContent = "Открыть";
+      if(a002_set[i].classList.contains("en")) {
+        a002_set[i].textContent = "Открыть на Английский";
+      }else
+      if(a002_set[i].classList.contains("ru")) {
+        a002_set[i].textContent = "Открыть на Русский";
+      }else
+      if(a002_set[i].classList.contains("he")) {
+        a002_set[i].textContent = "Открыть на Иврите";
+      }else{
+        a002_set[i].textContent = "Открыть";
+      }
     };
     for (let i = 0; i < a003_set.length; i++) {
       a003_set[i].textContent = "Windhawk";
-    };
-    for (let i = 0; i < a004_set.length; i++) {
-      a004_set[i].textContent = "Открыть на Английский";
-    };
-    for (let i = 0; i < a005_set.length; i++) {
-      a005_set[i].textContent = "Открыть на Русский";
-    };
-    for (let i = 0; i < a006_set.length; i++) {
-      a006_set[i].textContent = "Открыть на Иврите";
     };
     for (let i = 0; i < a007_set.length; i++) {
       a007_set[i].textContent = "Приложения для Android";
@@ -125,19 +118,20 @@ function loadTexts() {
       a001_set[i].textContent = "מיינקראפט";
     };
     for (let i = 0; i < a002_set.length; i++) {
-      a002_set[i].textContent = "לפתוח";
+      if(a002_set[i].classList.contains("en")) {
+        a002_set[i].textContent = "לפתוח באנגלית";
+      }else
+      if(a002_set[i].classList.contains("ru")) {
+        a002_set[i].textContent = "לפתוח ברוסית";
+      }else
+      if(a002_set[i].classList.contains("he")) {
+        a002_set[i].textContent = "לפתוח בעברית";
+      }else{
+        a002_set[i].textContent = "לפתוח";
+      }
     };
     for (let i = 0; i < a003_set.length; i++) {
       a003_set[i].textContent = "Windhawk";
-    };
-    for (let i = 0; i < a004_set.length; i++) {
-      a004_set[i].textContent = "לפתוח באנגלית";
-    };
-    for (let i = 0; i < a005_set.length; i++) {
-      a005_set[i].textContent = "לפתוח ברוסית";
-    };
-    for (let i = 0; i < a006_set.length; i++) {
-      a006_set[i].textContent = "לפתוח בעברית";
     };
     for (let i = 0; i < a007_set.length; i++) {
       a007_set[i].textContent = "אפליקציות לאנדרואיד";
