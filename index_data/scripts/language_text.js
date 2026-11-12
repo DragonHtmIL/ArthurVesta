@@ -40,13 +40,19 @@ function loadTexts() {
       a001_set[i].textContent = "Minecraft";
     };
     for (let i = 0; i < a002_set.length; i++) {
+      if(a002_set[i].classList.contains === "en" || "ru" || "he") return;
+      if(a002_set[i].classList.contains === "en") {
+        a004_set[i].textContent = "Open in English";
+      }else
+      if(a002_set[i].classList.contains === "en") {
+        a004_set[i].textContent = "Open in English";
+      }
       a002_set[i].textContent = "Open";
     };
     for (let i = 0; i < a003_set.length; i++) {
       a003_set[i].textContent = "Windhawk";
     };
     for (let i = 0; i < a004_set.length; i++) {
-      a004_set[i].textContent = "Open in English";
     };
     for (let i = 0; i < a005_set.length; i++) {
       a005_set[i].textContent = "Open in Russian";

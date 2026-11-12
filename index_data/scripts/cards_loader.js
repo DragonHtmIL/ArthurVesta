@@ -6,6 +6,7 @@ const infoFiles = [
   "index_data/info/av.mnts.eventscreator/info.json",
   "index_data/info/com.av.supercards/info.json",
   "index_data/info/eyephone-k-on-screen-animation-example/info.json",
+  "index_data/info/eyephone-s24-ultra-arthur-dark-light-editions/info.json",
   "index_data/info/eyephone-s24-ultra-titanium-black/info.json",
   "index_data/info/eyephone-s24-ultra-trailblazer-edition/info.json",
   "index_data/info/eyephone-s24-ultra-tv/info.json",
@@ -41,6 +42,45 @@ function getLanguageValue(info, field) {
 };
 function hasField(info, field) {
   return Array.isArray(info[field]) && info[field].includes(field);
+};
+function getCardLinks(info) {
+  if (Array.isArray(info.links)) {
+    return info.links.filter((link) => {
+      const isValid = link && typeof link.label === "string" &&
+        typeof link.url === "string" && link.url.trim();
+      if (!isValid) {
+        console.warn("Skipping invalid card link:", link);
+      }
+      return isValid;
+    }).map((link) => ({
+      label: link.label,
+      url: link.url,
+      className: info.linker_class || "open-btn"
+    }));
+  }
+
+  return Object.keys(info)
+    .filter((key) => key === "link" || /^link\d+$/.test(key))
+    .sort((a, b) => {
+      const aNumber = a === "link" ? 0 : Number(a.slice(4));
+      const bNumber = b === "link" ? 0 : Number(b.slice(4));
+      return aNumber - bNumber;
+    })
+    .filter((key) => {
+      if (typeof info[key] !== "string" || !info[key].trim()) {
+        console.warn(`Skipping invalid card link field: ${key}`);
+        return false;
+      }
+      return true;
+    })
+    .map((key) => {
+      const number = key === "link" ? "" : key.slice(4);
+      return {
+        label: info[`link_label${number}`] || getOpenText(),
+        url: info[key],
+        className: info[`linker_class${number}`] || "open-btn"
+      };
+    });
 };
 function createCard(info) {
   const card = document.createElement("div");
@@ -85,14 +125,16 @@ function createCard(info) {
   }
   const buttonsFrame = document.createElement("div");
   buttonsFrame.className = "card-buttons-frame";
-  const button = document.createElement("button");
-  button.className = info.linker_class || "open-btn";
-  button.textContent = getOpenText();
-  button.addEventListener("click", () => {
-    window.open(info.link, "_blank", "noopener,noreferrer");
-  });
+  for (const link of getCardLinks(info)) {
+    const button = document.createElement("button");
+    button.className = link.className;
+    button.textContent = link.label;
+    button.addEventListener("click", () => {
+      window.open(link.url, "_blank", "noopener,noreferrer");
+    });
+    buttonsFrame.appendChild(button);
+  }
   iconFrame.appendChild(image);
-  buttonsFrame.appendChild(button);
   contentFrame.append(title, content, buttonsFrame);
   card.append(iconFrame, contentFrame);
   return card;
